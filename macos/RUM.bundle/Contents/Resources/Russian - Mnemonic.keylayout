@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 351 on 2022-05-05 at 15:56 (GMT+2)-->
+<!--Last edited by Ukelele version 351 on 2022-05-07 at 08:36 (GMT+2)-->
 <!--Edited by Dotland (githab.com/dotland).-->
 <keyboard group="126" id="-17795" name="Russian - Mnemonic" maxout="1">
     <!---->
@@ -384,7 +384,7 @@
             <key code="9" output="√"/>
             <key code="10" output="§"/>
             <key code="11" output=""/>
-            <key code="12" output="•"/>
+            <key code="12" output=""/>
             <key code="13" output=""/>
             <key code="14" output="€"/>
             <key code="15" output="₽"/>
@@ -490,9 +490,9 @@
             <key code="6" output=""/>
             <key code="7" output="¤"/>
             <key code="8" output="©"/>
-            <key code="9" output=""/>
+            <key code="9" output="‣"/>
             <key code="10" output="±"/>
-            <key code="11" output=""/>
+            <key code="11" output="•"/>
             <key code="12" output=""/>
             <key code="13" output=""/>
             <key code="14" output=""/>
@@ -526,7 +526,7 @@
             <key code="42" output=""/>
             <key code="43" output="«"/>
             <key code="44" output=""/>
-            <key code="45" output=""/>
+            <key code="45" output="⁃"/>
             <key code="46" output=""/>
             <key code="47" output="»"/>
             <key code="48" output="&#x0009;"/>
@@ -602,7 +602,7 @@
             <key code="9" output="√"/>
             <key code="10" output="§"/>
             <key code="11" output=""/>
-            <key code="12" output="•"/>
+            <key code="12" output=""/>
             <key code="13" output=""/>
             <key code="14" output="€"/>
             <key code="15" output="₽"/>
