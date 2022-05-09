@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 351 on 2022-05-08 at 09:28 (GMT+2)-->
+<!--Last edited by Ukelele version 351 on 2022-05-09 at 09:35 (GMT+2)-->
 <!--Edited by Dotland (githab.com/dotland).-->
 <keyboard group="126" id="-17795" name="Russian - Mnemonic" maxout="1">
     <!---->
@@ -1023,7 +1023,7 @@
             <when state="LETTERS BY APOSTROPHE" output="’"/>
         </action>
         <action id="-">
-            <when state="none" output="‐"/>
+            <when state="none" output="-"/>
             <when state="SYMBOLS BY BACKSLASH" output="−"/>
         </action>
         <action id="- 1">
