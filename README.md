@@ -89,7 +89,7 @@
 | Война и мир                       | `V` `o` `j` `n` `a`&nbsp;` `&nbsp;`i`&nbsp;` `&nbsp;`m` `i` `r` |
 | Хаос и порядок                    | `H` `a` `o` `s`&nbsp;` `&nbsp;` `&nbsp;`i`&nbsp;` `&nbsp;`p` `o` `r` `y` `a` `d` `o` `k`  |
 | Сюжетная линия                    | `S`&nbsp;` `&nbsp;`y` `u` `x` `e` `t` `n` `a` `q`&nbsp;` `&nbsp;`l` `i` `n` `i` `q` |
-| Тяжёлые времена                   | `T` `y` `a` `x` `j` `o` `l` `y`&nbsp;` `&nbsp;`e`&nbsp;` `&nbsp;`v` `r` `e` `m` `e` `n` `a` |
+| Тяжёлые времена                   | `T` `j` `a` `x` `j` `o` `l` `y`&nbsp;` `&nbsp;`e`&nbsp;` `&nbsp;`v` `r` `e` `m` `e` `n` `a` |
 | Сила настоящего                   | `S` `i` `l` `a`&nbsp;` `&nbsp;`n` `a` `s` `t` `o` `j` `a` `s` `c` `e` `g` `o` |
 | Дождь должен идти                 | `D` `o` `x` `d` `'`&nbsp;` `&nbsp;`d` `o` `l` `x` `e` `n`&nbsp;` `&nbsp;`i` `d` `t` `i` |
 | Волшебство рассвета               | `V` `o` `l` `w` `e` `b` `s` `t` `v` `o`&nbsp;` `&nbsp;`r` `a` `s` `s` `v` `e` `t` `a` |
