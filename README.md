@@ -257,9 +257,9 @@ sudo ./install.sh
 ### Ссылки
 
 <a id="1">&nbsp;&nbsp;1.&nbsp;</a>
-[*Адамчик Н. В.* Самый полный курс русского языка. — Минск, 2008. — 848 с.](https://www.labirint.ru/books/574898/) <br />
+[*Адамчик Н. В.* Самый полный курс русского языка.](https://www.labirint.ru/books/574898/) <br />
 <a id="2">&nbsp;&nbsp;2.&nbsp;</a>
-[*Матвеев С. А.* Полный курс русского языка. — Москва, 2019. — 384 с.](https://www.labirint.ru/books/699080/) <br />
+[*Матвеев С. А.* Полный курс русского языка.](https://www.labirint.ru/books/699080/) <br />
 <a id="3">&nbsp;&nbsp;3.&nbsp;</a>
 [*Стандарт Юникода.* Что такое Unicode?](https://unicode.org/standard/translations/russian.html) <br />
 <a id="4">&nbsp;&nbsp;4.&nbsp;</a>
