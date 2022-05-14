@@ -1,0 +1,6 @@
+        <variant>
+          <configItem>
+            <name>@n</name>
+            <description>@d</description>
+          </configItem>
+        </variant>

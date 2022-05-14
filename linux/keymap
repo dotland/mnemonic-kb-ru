@@ -1,0 +1,68 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Generated keyboard layout file with the Keyboard Layout Editor.
+// For more about the software, see http://code.google.com/p/keyboardlayouteditor
+//
+// Edited by [Dotland](https://github.com/dotland)
+// v1.0.0
+
+xkb_symbols "mnemonic"
+{
+    name[Group1] = "Russian (mnemonic)";
+
+    include "us(basic)"
+
+    key.type[Group1]="FOUR_LEVEL_ALPHABETIC";
+    key <AB01> { [ Cyrillic_ze,             Cyrillic_ZE                                             ] }; // з З 
+    key <AB02> { [ Cyrillic_zhe,            Cyrillic_ZHE,       multiply,           currency        ] }; // ж Ж × ¤ 
+    key <AB03> { [ dead_caron,              dead_cedilla,       U2103,              copyright       ] }; // Dˇ D¸ ℃ © 
+    key <AB04> { [ Cyrillic_ve,             Cyrillic_VE,        U221A,              U2023           ] }; // в В √ ‣ 
+    key <AB05> { [ Cyrillic_be,             Cyrillic_BE,        NoSymbol,           U2022           ] }; // б Б  • 
+    key <AB06> { [ Cyrillic_en,             Cyrillic_EN,        numerosign,         U2043           ] }; // н Н № ⁃ 
+    key <AB07> { [ Cyrillic_em,             Cyrillic_EM,        U2030,              U207B           ] }; // м М ‰ ⁻ 
+    key <AC01> { [ Cyrillic_a,              Cyrillic_A,         ordfeminine                         ] }; // а А ª 
+    key <AC02> { [ dead_iota,               dead_horn,          U00A7,              U2120           ] }; // Dͺ D? § ℠ 
+    key <AC03> { [ Cyrillic_de,             Cyrillic_DE,        U058F                               ] }; // д Д ֏ 
+    key <AC04> { [ Cyrillic_ef,             Cyrillic_EF,        sterling,           FFrancSign      ] }; // ф Ф £ ₣ 
+    key <AC05> { [ Cyrillic_ghe,            Cyrillic_GHE,       U20B4                               ] }; // г Г ₴ 
+    key <AC06> { [ Cyrillic_ha,             Cyrillic_HA                                             ] }; // х Х 
+    key <AC07> { [ dead_belowcircumflex,    dead_circumflex                                         ] }; // Dˬ D^ 
+    key <AC08> { [ Cyrillic_ka,             Cyrillic_KA                                             ] }; // к К 
+    key <AC09> { [ Cyrillic_el,             Cyrillic_EL,        U20BE,              LiraSign        ] }; // л Л ₾ ₤ 
+    key <AC11> { [ Cyrillic_softsign,       Cyrillic_SOFTSIGN,  combining_acute,    combining_grave ] }; // ь Ь ́ ̀ 
+    key <AD01> { [ Cyrillic_ya,             Cyrillic_YA                                             ] }; // я Я 
+    key <AD02> { [ Cyrillic_sha,            Cyrillic_SHA                                            ] }; // ш Ш 
+    key <AD03> { [ Cyrillic_ie,             Cyrillic_IE,        EuroSign                            ] }; // е Е € 
+    key <AD04> { [ Cyrillic_er,             Cyrillic_ER,        U20BD,              registered      ] }; // р Р ₽ ® 
+    key <AD05> { [ Cyrillic_te,             Cyrillic_TE,        U2031,              trademark       ] }; // т Т ‱ ™ 
+    key <AD06> { [ dead_belowbreve,         dead_breve,         yen                                 ] }; // D? D˘ ¥ 
+    key <AD07> { [ Cyrillic_u,              Cyrillic_U                                              ] }; // у У 
+    key <AD08> { [ Cyrillic_i,              Cyrillic_I,         U20B9                               ] }; // и И ₹ 
+    key <AD09> { [ Cyrillic_o,              Cyrillic_O,         masculine,          degree          ] }; // о О º ° 
+    key <AD10> { [ Cyrillic_pe,             Cyrillic_PE,        paragraph,          U207A           ] }; // п П ¶ ⁺ 
+    key <TLDE> { [ Cyrillic_hardsign,       Cyrillic_HARDSIGN,  dead_dasia,         asciitilde      ] }; // ъ Ъ D῾ ~ 
+
+    key.type[Group1]="FOUR_LEVEL";
+    key <AB08> { [ NoSymbol,    NoSymbol,   rightsinglequotemark,   U00AB               ] }; //   ’ « 
+    key <AB09> { [ NoSymbol,    NoSymbol,   U00B7,                  U00BB               ] }; //   · » 
+    key <AB10> { [ dead_hook,   question,   division                                    ] }; // D? ? ÷ 
+    key <AC10> { [ NoSymbol,    colon,      U2026                                       ] }; //  : … 
+    key <AD11> { [ NoSymbol,    NoSymbol,   leftdoublequotemark,    doublelowquotemark  ] }; //   “ „ 
+    key <AD12> { [ NoSymbol,    NoSymbol,   rightdoublequotemark,   leftdoublequotemark ] }; //   ” “ 
+    key <AE01> { [ NoSymbol,    NoSymbol,   U2081,                  onesuperior         ] }; //   ₁ ¹ 
+    key <AE02> { [ NoSymbol,    NoSymbol,   U2082,                  twosuperior         ] }; //   ₂ ² 
+    key <AE03> { [ NoSymbol,    NoSymbol,   U2083,                  threesuperior       ] }; //   ₃ ³ 
+    key <AE04> { [ NoSymbol,    NoSymbol,   U2084,                  U2074               ] }; //   ₄ ⁴ 
+    key <AE05> { [ NoSymbol,    NoSymbol,   U2085,                  U2075               ] }; //   ₅ ⁵ 
+    key <AE06> { [ NoSymbol,    NoSymbol,   U2086,                  U2076               ] }; //   ₆ ⁶ 
+    key <AE07> { [ NoSymbol,    NoSymbol,   U2087,                  U2077               ] }; //   ₇ ⁷ 
+    key <AE08> { [ NoSymbol,    NoSymbol,   U2088,                  U2078               ] }; //   ₈ ⁸ 
+    key <AE09> { [ NoSymbol,    NoSymbol,   U2089,                  U2079               ] }; //   ₉ ⁹ 
+    key <AE10> { [ NoSymbol,    NoSymbol,   U2080,                  U2070               ] }; //   ₀ ⁰ 
+    key <AE11> { [ U002D,       NoSymbol,   U2013,                  U2014               ] }; // -  – — 
+    key <AE12> { [ NoSymbol,    NoSymbol,   U2248                                       ] }; //   ≈ 
+    key <BKSL> { [ dead_ogonek                                                          ] }; // D˛ 
+
+    include "level3(ralt_switch)"
+};
+

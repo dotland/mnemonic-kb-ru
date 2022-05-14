@@ -1,0 +1,4 @@
+
+# Set input method to XIM to support multichar input
+export GTK_IM_MODULE="xim"
+export QT_IM_MODULE="xim"
