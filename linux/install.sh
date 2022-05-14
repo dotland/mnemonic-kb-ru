@@ -93,7 +93,7 @@ function add_keymap() {
         local bak_file=$(get_backup_file "${bak_subdir}" "${keymap_file}")
         cp "${keymap_file}" "${bak_file}"
 
-        { echo "// ${section_start}"; cat "./keymap"; echo "// ${section_end}"; } >> "${keymap_file}"
+        { echo "// ${section_start}"; cat "./keymap"; printf "// ${section_end}\n\n"; } >> "${keymap_file}"
 
         if [ $? -eq 0 ]; then
             any_change=1
@@ -123,7 +123,7 @@ function add_compose() {
             local bak_file=$(get_backup_file "${bak_subdir}" "${compose_file}")
             cp "${compose_file}" "${bak_file}"
 
-            { echo "# ${section_start}"; cat "./Compose"; echo "# ${section_end}"; } >> "${compose_file}"
+            { echo "# ${section_start}"; cat "./Compose"; printf "# ${section_end}\n\n"; } >> "${compose_file}"
 
             if [ $? -eq 0 ]; then
                 any_change=1
