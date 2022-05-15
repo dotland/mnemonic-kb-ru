@@ -22,7 +22,7 @@
 ##### Рис. 5. Русская мнемоническая клавиатура с сочетанием клавиш `AltGr`+`Shift`
 <p><img width="800" src="./images/RUM-altgr-shift.png" alt="Русская мнемоническая клавиатура с сочетанием клавиш AltGr Shift" title="Русская мнемоническая клавиатура с сочетанием клавиш AltGr Shift" /></p>
 
-Клавиша `AltGr` — Alt Graph, правая клавиша `Alt` в ОС-ах Windows и Linux, а в ОС-е macOS этому клавишу соответствует клавиша `⌥` (Option).
+Клавиша `AltGr` — [Alt Graph](https://en.wikipedia.org/wiki/AltGr_key), правая клавиша `Alt` в ОС-ах Windows и Linux, а в ОС-е macOS этому клавишу соответствует клавиша `⌥` ([Option](https://en.wikipedia.org/wiki/Option_key)).
 
 ### Русский алфавит
 
@@ -142,7 +142,7 @@
 
 ### Специальные символы
 
-&nbsp;&nbsp;&nbsp;&nbsp;В ОС-е Windows существует [способ ввода специальных символов](https://www.alt-codes.net/): удерживая нажатой клавишу `Alt`, введите код, соответствующую символу, с помощью [цифровой клавиатуры](https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0). Для этого нужно убедиться, что клавиша `Num Lock` включена. Также специальные символы можно вводить используя сочетание клавиш&nbsp; <img width="15"  src="https://user-images.githubusercontent.com/6199709/159123586-43d7e288-d262-4b14-b56e-6abdf072466c.png" alt="Windows ստեղն" title="Windows ստեղն" /> + `.`, либо при наличии клавиши `Fn`, используя сочетание клавиш&nbsp; `Fn` + `Пробел`. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;В ОС-е Windows существует [способ ввода специальных символов](https://www.alt-codes.net/): удерживая нажатой клавишу `Alt`, введите код, соответствующую символу, с помощью [цифровой клавиатуры](https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0). Для этого нужно убедиться, что клавиша `Num Lock` включена. Также специальные символы можно вводить используя сочетание клавиш&nbsp; <img width="15"  src="https://user-images.githubusercontent.com/6199709/159123586-43d7e288-d262-4b14-b56e-6abdf072466c.png" alt="клавиша Windows" title="клавиша Windows" /> + `.`, либо при наличии клавиши `Fn`, используя сочетание клавиш&nbsp; `Fn` + `Пробел`. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;В ОС-е Linux существует способ ввода специальных символов по [основной составной клавише](https://ru.wikipedia.org/wiki/Compose) и последовательностью мнемонических клавиш. Символы [Юникод](https://unicode.org/standard/translations/russian.html) также можно вводить с помощью [команд](https://fsymbols.com/character-maps/linux/) **gucharmap** или **kcharselect**. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;А также, в ОС-е macOS возможен ввод символов [Юникод](https://unicode.org/standard/translations/russian.html) с помощью сочетания клавиш&nbsp; `⌘`+`Ctrl`+`Пробел`.
 
@@ -180,7 +180,7 @@
 
 ### Математические знаки
 
-&nbsp;&nbsp;&nbsp;&nbsp;В ОС-е Windows возможен ввод математических символов, дробей, греческих букв, римских цифр, геометрических символов с помощью сочетания клавиш&nbsp; <img width="15"  src="https://user-images.githubusercontent.com/6199709/159123586-43d7e288-d262-4b14-b56e-6abdf072466c.png" alt="Windows ստեղն" title="Windows ստեղն" /> + `.`. При редактировании на русском языке часто используемые математические символы можно вводить с помощью мнемонических клавиш, которые представлены в следующей таблице:
+&nbsp;&nbsp;&nbsp;&nbsp;В ОС-е Windows возможен ввод математических символов, дробей, греческих букв, римских цифр, геометрических символов с помощью сочетания клавиш&nbsp; <img width="15"  src="https://user-images.githubusercontent.com/6199709/159123586-43d7e288-d262-4b14-b56e-6abdf072466c.png" alt="клавиша Windows" title="клавиша Windows" /> + `.`. При редактировании на русском языке часто используемые математические символы можно вводить с помощью мнемонических клавиш, которые представлены в следующей таблице:
 
 | Юникод №    | символ    | название        | клавиши       |
 | :---        |  :---:    | :---            |    :---:      |
@@ -236,7 +236,7 @@
 
 #### Windows
 
-&nbsp;&nbsp;&nbsp;&nbsp;Загрузите [этот архивный файл](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/RUM.zip), распакуйте его и запустите находящийся в нем файл&nbsp; **setup.exe** &nbsp;от имени администратора. Перезагрузите ОС-у после успешной установки, после чего вы сможете выбрать язык ввода&nbsp; *Russian Mnemonic* &nbsp;с помощью сочетания клавиш &nbsp; <img width="15"  src="https://user-images.githubusercontent.com/6199709/159123586-43d7e288-d262-4b14-b56e-6abdf072466c.png" alt="Windows ստեղն" title="Windows ստեղն" /> + `Пробел`.
+&nbsp;&nbsp;&nbsp;&nbsp;Загрузите [этот архивный файл](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/RUM.zip), распакуйте его и запустите находящийся в нем файл&nbsp; **setup.exe** &nbsp;от имени администратора. Перезагрузите ОС-у после успешной установки, после чего вы сможете выбрать язык ввода&nbsp; *Russian Mnemonic* &nbsp;с помощью сочетания клавиш &nbsp; <img width="15"  src="https://user-images.githubusercontent.com/6199709/159123586-43d7e288-d262-4b14-b56e-6abdf072466c.png" alt="клавиша Windows" title="клавиша Windows" /> + `Пробел`.
 
 #### macOS
 
