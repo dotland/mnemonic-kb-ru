@@ -34,7 +34,7 @@
 <dead_hook> <semicolon>                 : "‴"   U2034 # TRIPLE PRIME
 
 # Symbols accessed by dead_ogonek
-<dead_ogonek> <space>           	    : "\\"  backslash # REVERSE SOLIDUS
+<dead_ogonek> <space>                   : "\\"  backslash # REVERSE SOLIDUS
 <dead_ogonek> <dead_ogonek>             : "\\\\"
 <dead_ogonek> <U002D>                   : "−"   U2212 # MINUS SIGN
 <dead_ogonek> <dead_hook>               : "÷"   division # DIVISION SIGN
@@ -102,7 +102,7 @@
 
 
 # Cyrillic small letters ц, ч accessed by dead_caron
-<dead_caron> <space>               	    : "ц"   Cyrillic_tse # CYRILLIC SMALL LETTER TSE
+<dead_caron> <space>                    : "ц"   Cyrillic_tse # CYRILLIC SMALL LETTER TSE
 <dead_caron> <Cyrillic_hardsign>        : "цъ"
 <dead_caron> <Cyrillic_HARDSIGN>        : "цЪ"
 <dead_caron> <asciitilde>               : "ц~"
@@ -184,8 +184,8 @@
 <dead_caron> <U2026>                    : "ц…"
 <dead_caron> <Cyrillic_softsign>        : "ць"
 <dead_caron> <Cyrillic_SOFTSIGN>        : "цЬ"
-<dead_caron> <combining_acute>          : "ц́"
-<dead_caron> <combining_grave>          : "ц̀"
+<dead_caron> <U0301>                    : "ц́"
+<dead_caron> <U0300>                    : "ц̀"
 <dead_caron> <Cyrillic_ze>              : "цз"
 <dead_caron> <Cyrillic_ZE>              : "цЗ"
 <dead_caron> <Cyrillic_zhe>             : "цж"
@@ -294,8 +294,8 @@
 <dead_cedilla> <U2026>                  : "Ц…"
 <dead_cedilla> <Cyrillic_softsign>      : "Ць"
 <dead_cedilla> <Cyrillic_SOFTSIGN>      : "ЦЬ"
-<dead_cedilla> <combining_acute>        : "Ц́"
-<dead_cedilla> <combining_grave>        : "Ц̀"
+<dead_cedilla> <U0301>                  : "Ц́"
+<dead_cedilla> <U0300>                  : "Ц̀"
 <dead_cedilla> <Cyrillic_ze>            : "Цз"
 <dead_cedilla> <Cyrillic_ZE>            : "ЦЗ"
 <dead_cedilla> <Cyrillic_zhe>           : "Цж"
@@ -323,7 +323,7 @@
 
 
 # Cyrillic small letters с, ш, щ accessed by dead_iota
-<dead_iota> <space>                	   : "с"   Cyrillic_es # CYRILLIC SMALL LETTER ES
+<dead_iota> <space>                    : "с"   Cyrillic_es # CYRILLIC SMALL LETTER ES
 <dead_iota> <Cyrillic_hardsign>        : "съ"
 <dead_iota> <Cyrillic_HARDSIGN>        : "сЪ"
 <dead_iota> <asciitilde>               : "с~"
@@ -405,8 +405,8 @@
 <dead_iota> <U2026>                    : "с…"
 <dead_iota> <Cyrillic_softsign>        : "сь"
 <dead_iota> <Cyrillic_SOFTSIGN>        : "сЬ"
-<dead_iota> <combining_acute>          : "с́"
-<dead_iota> <combining_grave>          : "с̀"
+<dead_iota> <U0301>                    : "с́"
+<dead_iota> <U0300>                    : "с̀"
 <dead_iota> <Cyrillic_ze>              : "сз"
 <dead_iota> <Cyrillic_ZE>              : "сЗ"
 <dead_iota> <Cyrillic_zhe>             : "сж"
@@ -433,7 +433,7 @@
 <dead_iota> <question>                 : "с?"
 
 # Cyrillic capital letters С, Ш, Щ accessed by dead_horn
-<dead_horn> <space>          		     : "С"   Cyrillic_ES # CYRILLIC CAPITAL LETTER ES
+<dead_horn> <space>          	         : "С"   Cyrillic_ES # CYRILLIC CAPITAL LETTER ES
 <dead_horn> <Cyrillic_hardsign>          : "Съ"
 <dead_horn> <Cyrillic_HARDSIGN>          : "СЪ"
 <dead_horn> <asciitilde>                 : "С~"
@@ -515,8 +515,8 @@
 <dead_horn> <U2026>                      : "С…"
 <dead_horn> <Cyrillic_softsign>          : "Сь"
 <dead_horn> <Cyrillic_SOFTSIGN>          : "СЬ"
-<dead_horn> <combining_acute>            : "С́"
-<dead_horn> <combining_grave>            : "С̀"
+<dead_horn> <U0301>                      : "С́"
+<dead_horn> <U0300>                      : "С̀"
 <dead_horn> <Cyrillic_ze>                : "Сз"
 <dead_horn> <Cyrillic_ZE>                : "СЗ"
 <dead_horn> <Cyrillic_zhe>               : "Сж"
@@ -626,8 +626,8 @@
 <dead_belowcircumflex> <U2026>                  : "й…"
 <dead_belowcircumflex> <Cyrillic_softsign>      : "йь"
 <dead_belowcircumflex> <Cyrillic_SOFTSIGN>      : "йЬ"
-<dead_belowcircumflex> <combining_acute>        : "й́"
-<dead_belowcircumflex> <combining_grave>        : "й̀"
+<dead_belowcircumflex> <U0301>                  : "й́"
+<dead_belowcircumflex> <U0300>                  : "й̀"
 <dead_belowcircumflex> <Cyrillic_ze>            : "йз"
 <dead_belowcircumflex> <Cyrillic_ZE>            : "йЗ"
 <dead_belowcircumflex> <Cyrillic_zhe>           : "йж"
@@ -736,8 +736,8 @@
 <dead_circumflex> <U2026>                       : "Й…"
 <dead_circumflex> <Cyrillic_softsign>           : "Йь"
 <dead_circumflex> <Cyrillic_SOFTSIGN>           : "ЙЬ"
-<dead_circumflex> <combining_acute>             : "Й́"
-<dead_circumflex> <combining_grave>             : "Й̀"
+<dead_circumflex> <U0301>                       : "Й́"
+<dead_circumflex> <U0300>                       : "Й̀"
 <dead_circumflex> <Cyrillic_ze>                 : "Йз"
 <dead_circumflex> <Cyrillic_ZE>                 : "ЙЗ"
 <dead_circumflex> <Cyrillic_zhe>                : "Йж"
@@ -847,8 +847,8 @@
 <dead_belowbreve> <U2026>                       : "ы…"
 <dead_belowbreve> <Cyrillic_softsign>           : "ыь"
 <dead_belowbreve> <Cyrillic_SOFTSIGN>           : "ыЬ"
-<dead_belowbreve> <combining_acute>             : "ы́"
-<dead_belowbreve> <combining_grave>             : "ы̀"
+<dead_belowbreve> <U0301>                       : "ы́"
+<dead_belowbreve> <U0300>                       : "ы̀"
 <dead_belowbreve> <Cyrillic_ze>                 : "ыз"
 <dead_belowbreve> <Cyrillic_ZE>                 : "ыЗ"
 <dead_belowbreve> <Cyrillic_zhe>                : "ыж"
@@ -875,7 +875,7 @@
 <dead_belowbreve> <question>                    : "ы?"
 
 # Cyrillic capital letters Ы, Э, Ю, Ё, Я accessed by dead_breve
-<dead_breve> <space>              	    : "Ы"   Cyrillic_YERU # CYRILLIC CAPITAL LETTER YERU
+<dead_breve> <space>                    : "Ы"   Cyrillic_YERU # CYRILLIC CAPITAL LETTER YERU
 <dead_breve> <Cyrillic_hardsign>        : "Ыъ"
 <dead_breve> <Cyrillic_HARDSIGN>        : "ЫЪ"
 <dead_breve> <asciitilde>               : "Ы~"
@@ -957,8 +957,8 @@
 <dead_breve> <U2026>                    : "Ы…"
 <dead_breve> <Cyrillic_softsign>        : "Ыь"
 <dead_breve> <Cyrillic_SOFTSIGN>        : "ЫЬ"
-<dead_breve> <combining_acute>          : "Ы́"
-<dead_breve> <combining_grave>          : "Ы̀"
+<dead_breve> <U0301>                    : "Ы́"
+<dead_breve> <U0300>                    : "Ы̀"
 <dead_breve> <Cyrillic_ze>              : "Ыз"
 <dead_breve> <Cyrillic_ZE>              : "ЫЗ"
 <dead_breve> <Cyrillic_zhe>             : "Ыж"
