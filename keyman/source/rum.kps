@@ -16,8 +16,8 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">Russian Mnemonic</Name>
-    <Copyright URL="">© Dotland</Copyright>
+    <Name URL="">Russian Mnemonic KM</Name>
+    <Copyright URL="">© 2022 Dotland</Copyright>
     <Author URL="mailto:tisarukhan@gmail.com">Tigran Sarukhanyan</Author>
     <Version URL="">1.0.0</Version>
     <WebSite URL="https://github.com/dotland/mnemonic-kb-ru/blob/main/README.md">https://github.com/dotland/mnemonic-kb-ru/blob/main/README.md</WebSite>
@@ -96,12 +96,6 @@
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>Sylfaen.ttf</Name>
-      <Description>Font Sylfaen</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.ttf</FileType>
-    </File>
-    <File>
       <Name>welcome\touch-RUM.jpg</Name>
       <Description>File touch-RUM.jpg</Description>
       <CopyLocation>0</CopyLocation>
@@ -134,11 +128,9 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Russian Mnemonic</Name>
+      <Name>Russian Mnemonic KM</Name>
       <ID>rum</ID>
       <Version>1.0.0</Version>
-      <OSKFont>Sylfaen.ttf</OSKFont>
-      <DisplayFont>Sylfaen.ttf</DisplayFont>
       <Languages>
         <Language ID="ru">Russian</Language>
       </Languages>

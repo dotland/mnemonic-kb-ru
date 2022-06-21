@@ -15,7 +15,7 @@
       <FileVersion>1.0.0</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
-        <Name>Russian Mnemonic</Name>
+        <Name>Russian Mnemonic KM</Name>
         <Copyright>© 2022 Dotland</Copyright>
         <Message>The Russian Mnemonic Keyman keyboard is distributed under the MIT License (MIT). It is a rewrite of the Russian Mnemonic Keyman Keyboard with improved dead-keys processing, and enhanced with special and math symbols. Contributed by Tigran Sarukhanyan (tisarukhan@gmail.com). June 2022</Message>
       </Details>
@@ -27,8 +27,8 @@
       <FileVersion>1.0.0</FileVersion>
       <FileType>.kps</FileType>
       <Details>
-        <Name>Russian Mnemonic</Name>
-        <Copyright>© Dotland</Copyright>
+        <Name>Russian Mnemonic KM</Name>
+        <Copyright>© 2022 Dotland</Copyright>
         <Version>1.0.0</Version>
       </Details>
     </File>
@@ -154,14 +154,6 @@
       <Filepath>source\splash.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
-    </File>
-    <File>
-      <ID>id_53945d6d3614b4a12ef58812c5fc5731</ID>
-      <Filename>Sylfaen.ttf</Filename>
-      <Filepath>source\Sylfaen.ttf</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.ttf</FileType>
       <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
     </File>
     <File>
