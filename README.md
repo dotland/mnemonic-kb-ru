@@ -6,19 +6,19 @@
 
 
 ##### Рис. 1. Русская мнемоническая клавиатура
-<p><img width="800" src="./images/RUM.png" alt="Русская мнемоническая раскладка клавиатуры" title="Русская мнемоническая раскладка клавиатуры" /></p>
+<p><img width="800" src="./keyman/source/welcome/RUM.png" alt="Русская мнемоническая раскладка клавиатуры" title="Русская мнемоническая раскладка клавиатуры" /></p>
 
 ##### Рис. 2. Русская мнемоническая клавиатура с включенной клавишей `Caps Lock`
-<p><img width="800" src="./images/RUM-caps-lock.png" alt="Русская мнемоническая клавиатура с нажатой клавишей Caps Lock" title="Русская мнемоническая клавиатура с нажатой клавишей Caps Lock" /></p>
+<p><img width="800" src="./keyman/source/welcome/RUM-caps-lock.png" alt="Русская мнемоническая клавиатура с нажатой клавишей Caps Lock" title="Русская мнемоническая клавиатура с нажатой клавишей Caps Lock" /></p>
 
 ##### Рис. 3. Русская мнемоническая клавиатура с нажатой клавишей `Shift`
-<p><img width="800" src="./images/RUM-shift.png" alt="Русская мнемоническая клавиатура с нажатой клавишей Shift" title="Русская мнемоническая клавиатура с нажатой клавишей Shift" /></p>
+<p><img width="800" src="./keyman/source/welcome/RUM-shift.png" alt="Русская мнемоническая клавиатура с нажатой клавишей Shift" title="Русская мнемоническая клавиатура с нажатой клавишей Shift" /></p>
 
 ##### Рис. 4. Русская мнемоническая клавиатура с нажатой клавишей `AltGr`
-<p><img width="800" src="./images/RUM-altgr.png" alt="Русская мнемоническая клавиатура с нажатой клавишей AltGr" title="Русская мнемоническая клавиатура с нажатой клавишей AltGr" /></p>
+<p><img width="800" src="./keyman/source/welcome/RUM-altgr.png" alt="Русская мнемоническая клавиатура с нажатой клавишей AltGr" title="Русская мнемоническая клавиатура с нажатой клавишей AltGr" /></p>
 
 ##### Рис. 5. Русская мнемоническая клавиатура с сочетанием клавиш `AltGr`+`Shift`
-<p><img width="800" src="./images/RUM-altgr-shift.png" alt="Русская мнемоническая клавиатура с сочетанием клавиш AltGr Shift" title="Русская мнемоническая клавиатура с сочетанием клавиш AltGr Shift" /></p>
+<p><img width="800" src="./keyman/source/welcome/RUM-altgr-shift.png" alt="Русская мнемоническая клавиатура с сочетанием клавиш AltGr Shift" title="Русская мнемоническая клавиатура с сочетанием клавиш AltGr Shift" /></p>
 
 Клавиша `AltGr` — [Alt Graph](https://en.wikipedia.org/wiki/AltGr_key), правая клавиша `Alt` в ОС-ах Windows и Linux, а в ОС-е macOS этому клавишу соответствует клавиша `⌥` ([Option](https://en.wikipedia.org/wiki/Option_key)).
 
