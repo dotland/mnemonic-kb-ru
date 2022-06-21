@@ -228,17 +228,30 @@
 | 25b7        |    ▷     | начало доказательства |   `/` `>` |
 | 25c1        |    ◁     | конец доказательства  |   `/` `<` |
 
-&nbsp;&nbsp;&nbsp;&nbsp;Подстрочные цифры можно вводить используя сочетание клавиш `AltGr` и цифровой клавиши, a надстрочные цифры — используя сочетание клавиш `AltGr`+`Shift` и цифровой клавиши. Эти цифры могут быть полезны, когда нужно возвести число или единицы физических величин в целую степень ( 6,674×10⁻¹¹ м³·кг⁻¹·с⁻² ), написать дроби ( ³/₅ ), написать формулы химических веществ или реакций ( H₂O ).
+&nbsp;&nbsp;&nbsp;&nbsp;Подстрочные цифры можно вводить используя сочетание клавиш `AltGr` и цифровой клавиши, a надстрочные цифры — используя сочетание клавиш `AltGr`+`Shift` и цифровой клавиши. Эти цифры могут быть полезны, когда нужно возвести число или единицы физических величин в целую степень ( 6,674×10⁻¹¹ м³·кг⁻¹·с⁻² ), написать дроби ( ³/₅ ), написать формулы химических веществ или реакций ( H₂O ), и т.п.
 
 ### Установка
 
+#### Keyman
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Keyman](https://keyman.com/about/) — это бесплатная клавиатурная платформа с открытым исходным кодом и доступна для многих ОС, включая [Windows](https://keyman.com/windows/), [macOS](https://keyman.com/mac/), [Linux](https://keyman.com/linux/), [Android](https://keyman.com/android/), [iOS](https://keyman.com/iphone-and-ipad/), а также для [Веб](https://keymanweb.com/).
+
+##### Windows, macOS, Linux
+
+&nbsp;&nbsp;&nbsp;&nbsp;Установите программу Keyman на ОС [Windows](https://keyman.com/windows/), [macOS](https://keyman.com/mac/) или на [Linux](https://keyman.com/linux/). Перейдите в раздел «Конфигурация» ( `Configuration...` ), щелкнув правой кнопкой мыши значок Keyman на панели задач. Затем нажмите кнопку `Install keyboard...`, выберите предварительно загруженный файл [rum.kmp](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/rum.kmp), затем нажмите кнопку `Install`. После успешной установки перезагрузите ОС-у, после чего можно выбрать язык ввода «Russian Mnemonic KM» с помощью сочетания левых клавиш `Alt`+`Shift`. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;В ОС Windows может возникнуть проблема с вводом неактивной клавиатурой. Чтобы [исправить](https://help.keyman.com/products/windows/12.0/docs/troubleshooting_hidden) это, сделайте значок Keyman видимым на панели задач.
+
+##### Android, iOS
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
 #### Windows
 
-&nbsp;&nbsp;&nbsp;&nbsp;Загрузите [этот архивный файл](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/RUM.zip), распакуйте его и запустите находящийся в нем файл&nbsp; **setup.exe** &nbsp;от имени администратора. Перезагрузите ОС-у после успешной установки, после чего вы сможете выбрать язык ввода&nbsp; *Russian Mnemonic* &nbsp;с помощью сочетания клавиш &nbsp; <img width="15"  src="https://user-images.githubusercontent.com/6199709/159123586-43d7e288-d262-4b14-b56e-6abdf072466c.png" alt="клавиша Windows" title="клавиша Windows" /> + `Пробел`.
+&nbsp;&nbsp;&nbsp;&nbsp;Загрузите файл [RUM.zip](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/RUM.zip), распакуйте его и запустите находящийся в нем файл&nbsp; **setup.exe** &nbsp;от имени администратора. Перезагрузите ОС-у после успешной установки, после чего вы сможете выбрать язык ввода&nbsp; «Russian Mnemonic» &nbsp;с помощью сочетания клавиш &nbsp; <img width="15"  src="https://user-images.githubusercontent.com/6199709/159123586-43d7e288-d262-4b14-b56e-6abdf072466c.png" alt="клавиша Windows" title="клавиша Windows" /> + `Пробел`.
 
 #### macOS
 
-&nbsp;&nbsp;&nbsp;&nbsp;Загрузите [этот файл](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/RUM.dmg) и запустите. Затем запустите&nbsp; **Keyboard Installer** &nbsp;из только что открытого окна, и откроется новое окно с двумя большими кнопками. Перетащите файл&nbsp; **RUM.bundle** &nbsp;в область под двумя кнопками. Нажмите первую кнопку, чтобы установить для текущего пользователя, или вторую кнопку, чтобы установить для всех пользователей. Перезагрузите ОС-у после успешной установки, затем добавьте источник ввода&nbsp; *Russian - Mnemonic* &nbsp;из настроек ОС-ы.
+&nbsp;&nbsp;&nbsp;&nbsp;Загрузите файл [RUM.dmg](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/RUM.dmg) и запустите. Затем запустите&nbsp; **Keyboard Installer** &nbsp;из только что открытого окна, и откроется новое окно с двумя большими кнопками. Перетащите файл&nbsp; **RUM.bundle** &nbsp;в область под двумя кнопками. Нажмите первую кнопку, чтобы установить для текущего пользователя, или вторую кнопку, чтобы установить для всех пользователей. Перезагрузите ОС-у после успешной установки, затем добавьте источник ввода&nbsp; «Russian - Mnemonic» &nbsp;из настроек ОС-ы.
 
 #### Linux
 
@@ -250,7 +263,7 @@ cd mnemonic-kb-ru/linux
 sudo ./install.sh
 ```
 
-Перезагрузите ОС-у после успешной установки, затем добавьте источник ввода&nbsp; *Russian (mnemonic)* &nbsp;из настроек ОС-ы.
+Перезагрузите ОС-у после успешной установки, затем добавьте источник ввода&nbsp; «Russian (mnemonic)» &nbsp;из настроек ОС-ы.
 
 ### Ссылки
 
