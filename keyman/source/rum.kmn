@@ -304,11 +304,6 @@ dk(small_es) + [CAPS SHIFT K_J] > U+0441 dk(small_short_i)            c сй
 dk(small_es) + [NCAPS SHIFT K_J] > U+0441 dk(capital_short_i)            c сЙ
 dk(small_es) + [CAPS K_J] > U+0441 dk(capital_short_i)            c сЙ
 
-dk(small_es) + [NCAPS K_C] > U+0441 dk(small_tse)            c сц
-dk(small_es) + [CAPS SHIFT K_C] > U+0441 dk(small_tse)            c сц
-dk(small_es) + [NCAPS SHIFT K_C] > U+0441 dk(capital_tse)            c сЦ
-dk(small_es) + [CAPS K_C] > U+0441 dk(capital_tse)            c сЦ
-
 dk(small_es) + [RALT K_BKQUOTE] > U+0441 dk(diaeresis)            c с¨
 dk(small_es) + [K_BKSLASH] > U+0441 dk(backslash)            c с\
 dk(small_es) + [K_SLASH] > U+0441 dk(slash)            c с/
@@ -329,11 +324,6 @@ dk(capital_es) + [NCAPS K_J] > U+0421 dk(small_short_i)            c Сй
 dk(capital_es) + [CAPS SHIFT K_J] > U+0421 dk(small_short_i)            c Сй
 dk(capital_es) + [NCAPS SHIFT K_J] > U+0421 dk(capital_short_i)            c СЙ
 dk(capital_es) + [CAPS K_J] > U+0421 dk(capital_short_i)            c СЙ
-
-dk(capital_es) + [NCAPS K_C] > U+0421 dk(small_tse)            c Сц
-dk(capital_es) + [CAPS SHIFT K_C] > U+0421 dk(small_tse)            c Сц
-dk(capital_es) + [NCAPS SHIFT K_C] > U+0421 dk(capital_tse)            c СЦ
-dk(capital_es) + [CAPS K_C] > U+0421 dk(capital_tse)            c СЦ
 
 dk(capital_es) + [RALT K_BKQUOTE] > U+0421 dk(diaeresis)            c С¨
 dk(capital_es) + [K_BKSLASH] > U+0421 dk(backslash)            c С\
@@ -526,12 +516,12 @@ dk(capital_short_i) notany(short_i_base_keys) > U+0419 context(2)
 dk(capital_short_i) any(short_i_base_keys) > index(capital_short_i_res, 2)
 
 
-c **********************        ␠      h       H       c       C
-store(es_base_keys)             U+0020  U+0445  U+0425  U+0446  U+0426
-c ---------------------- s      с       ш       ш       щ       щ
-store(small_es_res)             U+0441  U+0448  U+0448  U+0449  U+0449
-c ---------------------- S      С       Ш       Ш       Щ       Щ
-store(capital_es_res)           U+0421  U+0428  U+0428  U+0429  U+0429
+c **********************        ␠      h       H       c               C
+store(es_base_keys)             U+0020  U+0445  U+0425  dk(small_tse)   dk(capital_tse)
+c ---------------------- s      с       ш       ш       щ               щ
+store(small_es_res)             U+0441  U+0448  U+0448  U+0449          U+0449
+c ---------------------- S      С       Ш       Ш       Щ               Щ
+store(capital_es_res)           U+0421  U+0428  U+0428  U+0429          U+0429
 
 dk(small_es) notany(es_base_keys) > U+0441 context(2)
 dk(small_es) any(es_base_keys) > index(small_es_res, 2)
@@ -554,28 +544,28 @@ dk(capital_tse) notany(tse_base_keys) > U+0426 context(2)
 dk(capital_tse) any(tse_base_keys) > index(capital_tse_res, 2)
 
 
-c **********************        ␠      b       B       z       Z       a       A       g       G       s       S       w       W       e       E       u       U       i       I       y       Y       o       O       c       C       RALT+`  '       "       /
-store(diaeresis_base_keys)      U+0020  U+0431  U+0411  U+0437  U+0417  U+0430  U+0410  U+0433  U+0413  U+0441  U+0421  U+0448  U+0428  U+0435  U+0415  U+0443  U+0423  U+0438  U+0418  U+044B  U+042B  U+043E  U+041E  U+0446  U+0426  U+00A8  U+044C  U+042C  U+002F
-c --------------- RALT + `      ¨       ъ       Ъ       ж       Ж       э       Э       ѓ       Ѓ       ш       Ш       щ       Щ       ё       Ё       ю       Ю       ї       Ї       ў       Ў       ё       Ё       ч       Ч       `       ´       ´       ´
-store(diaeresis_res)            U+00A8  U+044A  U+042A  U+0436  U+0416  U+044D  U+042D  U+0453  U+0403  U+0448  U+0428  U+0449  U+0429  U+0451  U+0401  U+044E  U+042E  U+0457  U+0407  U+045E  U+040E  U+0451  U+0401  U+0447  U+0427  U+0060  U+00B4  U+00B4  U+00B4
+c **********************        ␠      b       B       z       Z       a       A       g       G       s             S               w       W       e       E       u       U       i       I       y               Y                 o       O       c              C                RALT+`  '       "       /
+store(diaeresis_base_keys)      U+0020  U+0431  U+0411  U+0437  U+0417  U+0430  U+0410  U+0433  U+0413  dk(small_es)  dk(capital_es)  U+0448  U+0428  U+0435  U+0415  U+0443  U+0423  U+0438  U+0418  dk(small_yeru)  dk(capital_yeru)  U+043E  U+041E  dk(small_tse)  dk(capital_tse)  U+00A8  U+044C  U+042C  dk(slash)
+c --------------- RALT + `      ¨       ъ       Ъ       ж       Ж       э       Э       ѓ       Ѓ       ш             Ш               щ       Щ       ё       Ё       ю       Ю       ї       Ї       ў               Ў                 ё       Ё       ч              Ч                `       ´       ´       ´
+store(diaeresis_res)            U+00A8  U+044A  U+042A  U+0436  U+0416  U+044D  U+042D  U+0453  U+0403  U+0448        U+0428          U+0449  U+0429  U+0451  U+0401  U+044E  U+042E  U+0457  U+0407  U+045E          U+040E            U+0451  U+0401  U+0447         U+0427           U+0060  U+00B4  U+00B4  U+00B4
 
 dk(diaeresis) notany(diaeresis_base_keys) > U+00A8 context(2)
 dk(diaeresis) any(diaeresis_base_keys) > index(diaeresis_res, 2)
 
 
-c **********************        ␠      -       /          l       L       x       X       o       O       a       A       e       E       =       t       T       v       V       b       B       u       U       c       C       *       8       +       <       >       [       ]       {       }
-store(backslash_base_keys)      U+0020  U+002D  dk(slash)  U+043B  U+041B  U+0436  U+0416  U+043E  U+041E  U+0430  U+0410  U+0435  U+0415  U+003D  U+0442  U+0422  U+0432  U+0412  U+0431  U+0411  U+0443  U+0423  U+0446  U+0426  U+002A  U+0038  U+002B  U+003C  U+003E  U+005B  U+005D  U+007B  U+007D
-c ---------------------- \      \       −       ÷          ∟       ∟       ×       ×       ∘       ∘       ∀       ∀       ∃       ∃       ≡       ⟂       ⟂      ∨       ∨       ∈       ∈       ∪       ∪      ⊂       ⊂       ∗       ∞       ±       ≤       ≥       〈       〉       ≺       ≻
-store(backslash_res)            U+005C  U+2212  U+00F7     U+221F  U+221F  U+00D7  U+00D7  U+2218  U+2218  U+2200  U+2200  U+2203  U+2203  U+2261  U+27C2  U+27C2  U+2228  U+2228  U+2208  U+2208  U+222A  U+222A  U+2282  U+2282  U+2217  U+221E  U+00B1  U+2264  U+2265  U+2329  U+232A  U+227A  U+227B
+c **********************        ␠      -       /          l       L       x       X       o       O       a       A       e       E       =       t       T       v       V       b       B       u       U       c              C                *       8       +       <       >       [       ]       {       }
+store(backslash_base_keys)      U+0020  U+002D  dk(slash)  U+043B  U+041B  U+0436  U+0416  U+043E  U+041E  U+0430  U+0410  U+0435  U+0415  U+003D  U+0442  U+0422  U+0432  U+0412  U+0431  U+0411  U+0443  U+0423  dk(small_tse)  dk(capital_tse)  U+002A  U+0038  U+002B  U+003C  U+003E  U+005B  U+005D  U+007B  U+007D
+c ---------------------- \      \       −       ÷          ∟       ∟       ×       ×       ∘       ∘       ∀       ∀       ∃       ∃       ≡       ⟂       ⟂      ∨       ∨       ∈       ∈       ∪       ∪      ⊂              ⊂                ∗       ∞       ±       ≤       ≥       〈       〉       ≺       ≻
+store(backslash_res)            U+005C  U+2212  U+00F7     U+221F  U+221F  U+00D7  U+00D7  U+2218  U+2218  U+2200  U+2200  U+2203  U+2203  U+2261  U+27C2  U+27C2  U+2228  U+2228  U+2208  U+2208  U+222A  U+222A  U+2282         U+2282           U+2217  U+221E  U+00B1  U+2264  U+2265  U+2329  U+232A  U+227A  U+227B
 
 dk(backslash) notany(backslash_base_keys) > U+005C context(2)
 dk(backslash) any(backslash_base_keys) > index(backslash_res, 2)
 
 
-c **********************        ␠      =       l       L       >       <       *       e       E       v       V       n       N       0       b       B       u       U       c       C       '       "       ;
-store(slash_base_keys)          U+0020  U+003D  U+043B  U+041B  U+003E  U+003C  U+002A  U+0435  U+0415  U+0432  U+0412  U+043D  U+041D  U+0030  U+0431  U+0411  U+0443  U+0423  U+0446  U+0426  U+044C  U+042C  U+003B
-c ---------------------- /      /       ≠       ∠       ∠       ▷      ◁       ⋆       ∄       ∄       ∧       ∧       ¬       ¬       ∅       ∉      ∉       ∩       ∩       ⊄       ⊄      ′       ″       ‴
-store(slash_res)                U+002F  U+2260  U+2220  U+2220  U+25B7  U+25C1  U+22C6  U+2204  U+2204  U+2227  U+2227  U+00AC  U+00AC  U+2205  U+2209  U+2209  U+2229  U+2229  U+2284  U+2284  U+2032  U+2033  U+2034
+c **********************        ␠      =       l       L       >       <       *       e       E       v       V       n       N       0       b       B       u       U       c              C                '       "       ;
+store(slash_base_keys)          U+0020  U+003D  U+043B  U+041B  U+003E  U+003C  U+002A  U+0435  U+0415  U+0432  U+0412  U+043D  U+041D  U+0030  U+0431  U+0411  U+0443  U+0423  dk(small_tse)  dk(capital_tse)  U+044C  U+042C  U+003B
+c ---------------------- /      /       ≠       ∠       ∠       ▷      ◁       ⋆       ∄       ∄       ∧       ∧       ¬       ¬       ∅       ∉      ∉       ∩       ∩       ⊄              ⊄               ′       ″       ‴
+store(slash_res)                U+002F  U+2260  U+2220  U+2220  U+25B7  U+25C1  U+22C6  U+2204  U+2204  U+2227  U+2227  U+00AC  U+00AC  U+2205  U+2209  U+2209  U+2229  U+2229  U+2284         U+2284           U+2032  U+2033  U+2034
 
 dk(slash) notany(slash_base_keys) > U+002F context(2)
 dk(slash) any(slash_base_keys) > index(slash_res, 2)
