@@ -136,7 +136,7 @@
 | [002f](https://unicode-table.com/ru/002f)      | /           | косая черта               | `/`                 | • в научной и деловой речи; <br /> • в графических сокращениях; <br /> • при точном (с указанием разбиения на строки) цитировании источника, если только он не воспроизводится строка в строку; <br /> • в библиографических описаниях является одним из условных разделительных знаков; <br /> • в обозначениях дат, напр. 27/11/1895, но в русской типографике это считается устаревшим; <br /> • годы, отличные от обычных календарных: *2006/7 уч. г.*; <br /> • номера угловых зданий, многоквартирных домов, построенных на месте нескольких снесенных зданий, или корпусов: *Застава Ильича, 8/1* (читается как «дробь»: *в доме восемь дробь один*). |
 | [0301](https://unicode-table.com/ru/0301)      | ́             | знак ударения             | `AltGr`+`'`                | • для предупреждения неправильного опознания слова, напр.: *бо́льшая*, *ви́дение*, *во́роны*, *временны́е*, *до́роги*; <br /> • для предупреждения неправильного ударения в недостаточно хорошо известном слове, в том числе в собственном имени, напр.: *гу́ру*, *ю́кола*, *Гарси́а*, *Конакри́*, *Фе́рми*; <br /> • над буквой «е» в целях противопоставления букве «ё»; <br /> • для различения относительного местоимения *что́* и союза *что*. <br /><br /> В словарях часто отмечают не только основное ударение слов, но и побочное (в сложных словах). В таких случаях, для обозначения главного ударения по-прежнему используют акут (наклон подобно знаку «/»), а для побочного — гравис (наклон как «\»): *о̀колозе́мный*, *вѝце-президе́нт*, *мѝкрокалькуля́тор*. |
 
-Гра́вис — это диакритический знак, отображающийся как знак обратного (слабого) ударения. Номер Юникода знака грависа — [0300](https://unicode-table.com/ru/), и вводится с помощью сочетания клавиш `AltGr`+`Shift`+`'`.
+Гра́вис — это диакритический знак, отображающийся как знак обратного (слабого) ударения. Номер Юникода знака грависа — [0300](https://unicode-table.com/ru/0300), и вводится с помощью сочетания клавиш `AltGr`+`Shift`+`'`.
 
 ### Специальные символы
 
@@ -147,34 +147,34 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;При наборе текста на русском языке часто используемые [специальные символы](#рис-3-русская-мнемоническая-клавиатура-с-нажатой-клавишей-shift) можно вводить с помощью клавиш `AltGr` и `Shift` в этой раскладке клавиатуры. В следующей таблице представлены те специальные символы, которые явно не отображаются на устройстве клавиатуры:
 
-| Юникод №                               | символ  | название        | клавиши               |
-| :---                                   |  :---:  | :---            |    :---:              |
-| [00a8](https://unicode-table.com/ru/)  |    ¨    | диэрезис        |   `AltGr`+`՝`         |
-| [00a7](https://unicode-table.com/ru/)  |    §    | параграф        |   `AltGr`+`S`         |
-| [00b6](https://unicode-table.com/ru/)  |    ¶    | абзац           |   `AltGr`+`P`         |
-| [2116](https://unicode-table.com/ru/)  |    №    | номер           |   `AltGr`+`N`         |
-| [2103](https://unicode-table.com/ru/)  |    ℃    | градус по Цельсию | `AltGr`+`C`          |
-| [00a4](https://unicode-table.com/ru/)  |    ¤    | валюта          |   `AltGr`+`Shift`+`X` |
-| [20bd](https://unicode-table.com/ru/)  |    ₽    | рубль           |   `AltGr`+`R`         |
-| [20ac](https://unicode-table.com/ru/)  |    €    | евро            |   `AltGr`+`E`         |
-| [058f](https://unicode-table.com/ru/)  |    ֏    | драм            |   `AltGr`+`D`         |
-| [20b4](https://unicode-table.com/ru/)  |    ₴    | гривна          |   `AltGr`+`G`         |
-| [00a3](https://unicode-table.com/ru/)  |    £    | фунт стерлингов |   `AltGr`+`F`         |
-| [20a3](https://unicode-table.com/ru/)  |    ₣    | франк           |   `AltGr`+`Shift`+`F` |
-| [20be](https://unicode-table.com/ru/)  |    ₾    | лари            |   `AltGr`+`Լ`         |
-| [20a4](https://unicode-table.com/ru/)  |    ₤    | лира            |   `AltGr`+`Shift`+`Լ` |
-| [00a5](https://unicode-table.com/ru/)  |    ¥    | иена            |   `AltGr`+`Y`         |
-| [20b9](https://unicode-table.com/ru/)  |    ₹    | рупия           |   `AltGr`+`I`         |
-| [2022](https://unicode-table.com/ru/)  |    •    | точка маркер списка |   `AltGr`+`Shift`+`B` |
-| [2023](https://unicode-table.com/ru/)  |    ‣    | треугольный маркер списка |   `AltGr`+`Shift`+`V` |
-| [2043](https://unicode-table.com/ru/)  |    ⁃    | дефис маркер списка |   `AltGr`+`Shift`+`N` |
-| [007e](https://unicode-table.com/ru/)  |    ~    | тильда          |   `AltGr`+`Shift`+`՝` |
-| [00a9](https://unicode-table.com/ru/)  |    ©    | знак авторского права |   `AltGr`+`Shift`+`C` |
-| [00ae](https://unicode-table.com/ru/)  |    ®    | зарегистрированный товарный знак |   `AltGr`+`Shift`+`R` |
-| [2122](https://unicode-table.com/ru/)  |    ™    | знак торговой марки |   `AltGr`+`Shift`+`T` |
-| [2120](https://unicode-table.com/ru/)  |    ℠    | знак обслуживания |   `AltGr`+`Shift`+`S` |
-| [00aa](https://unicode-table.com/ru/)  |    ª    | женский порядковый индикатор |   `AltGr`+`A` |
-| [00ba](https://unicode-table.com/ru/)  |    º    | мужской порядковый индикатор |   `AltGr`+`O` |
+| Юникод №                                   | символ  | название        | клавиши               |
+| :---                                       |  :---:  | :---            |    :---:              |
+| [00a8](https://unicode-table.com/ru/00a8)  |    ¨    | диэрезис        |   `AltGr`+`՝`         |
+| [00a7](https://unicode-table.com/ru/00a7)  |    §    | параграф        |   `AltGr`+`S`         |
+| [00b6](https://unicode-table.com/ru/00b6)  |    ¶    | абзац           |   `AltGr`+`P`         |
+| [2116](https://unicode-table.com/ru/2116)  |    №    | номер           |   `AltGr`+`N`         |
+| [2103](https://unicode-table.com/ru/2103)  |    ℃    | градус по Цельсию | `AltGr`+`C`          |
+| [00a4](https://unicode-table.com/ru/00a4)  |    ¤    | валюта          |   `AltGr`+`Shift`+`X` |
+| [20bd](https://unicode-table.com/ru/20bd)  |    ₽    | рубль           |   `AltGr`+`R`         |
+| [20ac](https://unicode-table.com/ru/20ac)  |    €    | евро            |   `AltGr`+`E`         |
+| [058f](https://unicode-table.com/ru/058f)  |    ֏    | драм            |   `AltGr`+`D`         |
+| [20b4](https://unicode-table.com/ru/20b4)  |    ₴    | гривна          |   `AltGr`+`G`         |
+| [00a3](https://unicode-table.com/ru/00a3)  |    £    | фунт стерлингов |   `AltGr`+`F`         |
+| [20a3](https://unicode-table.com/ru/20a3)  |    ₣    | франк           |   `AltGr`+`Shift`+`F` |
+| [20be](https://unicode-table.com/ru/20be)  |    ₾    | лари            |   `AltGr`+`Լ`         |
+| [20a4](https://unicode-table.com/ru/20a4)  |    ₤    | лира            |   `AltGr`+`Shift`+`Լ` |
+| [00a5](https://unicode-table.com/ru/00a5)  |    ¥    | иена            |   `AltGr`+`Y`         |
+| [20b9](https://unicode-table.com/ru/20b9)  |    ₹    | рупия           |   `AltGr`+`I`         |
+| [2022](https://unicode-table.com/ru/2022)  |    •    | точка маркер списка |   `AltGr`+`Shift`+`B` |
+| [2023](https://unicode-table.com/ru/2023)  |    ‣    | треугольный маркер списка |   `AltGr`+`Shift`+`V` |
+| [2043](https://unicode-table.com/ru/2043)  |    ⁃    | дефис маркер списка |   `AltGr`+`Shift`+`N` |
+| [007e](https://unicode-table.com/ru/007e)  |    ~    | тильда          |   `AltGr`+`Shift`+`՝` |
+| [00a9](https://unicode-table.com/ru/00a9)  |    ©    | знак авторского права |   `AltGr`+`Shift`+`C` |
+| [00ae](https://unicode-table.com/ru/00ae)  |    ®    | зарегистрированный товарный знак |   `AltGr`+`Shift`+`R` |
+| [2122](https://unicode-table.com/ru/2122)  |    ™    | знак торговой марки |   `AltGr`+`Shift`+`T` |
+| [2120](https://unicode-table.com/ru/2120)  |    ℠    | знак обслуживания |   `AltGr`+`Shift`+`S` |
+| [00aa](https://unicode-table.com/ru/00aa)  |    ª    | женский порядковый индикатор |   `AltGr`+`A` |
+| [00ba](https://unicode-table.com/ru/00ba)  |    º    | мужской порядковый индикатор |   `AltGr`+`O` |
 
 
 ### Математические знаки
@@ -184,50 +184,50 @@
 | Юникод №                                    | символ   | название        | клавиши       |
 | :---                                        |  :---:   | :---            |    :---:      |
 | [00b0](https://unicode-table.com/ru/00b0)   |    °     | градус          |   `AltGr`+`Shift`+`Օ` |
-| [2032](https://unicode-table.com/ru/)   |    ′     | штрих (минуты, футы) |   `/` `'`     |
-| [2033](https://unicode-table.com/ru/)   |    ″     | двойной штрих (секунды, дюймы) |   `/` `Shift`+`'` |
-| [2034](https://unicode-table.com/ru/)   |    ‴     | тройной штрих   |   `/` `;`     |
-| [207a](https://unicode-table.com/ru/)   |    ⁺     | надстрочный плюс |  `AltGr`+`Shift`+`P` |
-| [207b](https://unicode-table.com/ru/)   |    ⁻     | надстрочный минус |  `AltGr`+`Shift`+`M` |
-| [00d7](https://unicode-table.com/ru/)   |    ×     | умножение       |   `AltGr`+`X` |
-| [2219](https://unicode-table.com/ru/)   |    ·     | умножение       |   `AltGr`+`.` |
-| [2212](https://unicode-table.com/ru/)   |    −     | вычитание       |   `\` `-`     |
-| [00f7](https://unicode-table.com/ru/)   |    ÷     | деление         |   `AltGr`+`/` |
-| [221a](https://unicode-table.com/ru/)   |    √     | квадратный корень |   `AltGr`+`V` |
-| [2248](https://unicode-table.com/ru/)   |    ≈     | быть примерно равным |  `AltGr`+`=` |
-| [2261](https://unicode-table.com/ru/)   |    ≡     | быть тождественно равным |   `\` `=` |
-| [2260](https://unicode-table.com/ru/)   |    ≠     | не быть равным  |   `/` `=`     |
-| [00b1](https://unicode-table.com/ru/)   |    ±     | плюс-минус      |   `\` `+`     |
-| [2264](https://unicode-table.com/ru/)   |    ≤     | быть меньше или равно |  `\` `<` |
-| [2265](https://unicode-table.com/ru/)   |    ≥     | быть больше или равно |   `\` `>` |
-| [221e](https://unicode-table.com/ru/)   |    ∞     | бесконечность   |   `\` `8`     |
-| [2030](https://unicode-table.com/ru/)   |    ‰     | промилле        |   `AltGr`+`M` |
-| [2031](https://unicode-table.com/ru/)   |    ‱     | десять тысячных |   `AltGr`+`T` |
-| [2329](https://unicode-table.com/ru/)   |    〈    | левая угловая скобка | `\` `[`  |
-| [232a](https://unicode-table.com/ru/)   |    〉    | правая угловая скобка | `\` `]` |
-| [2220](https://unicode-table.com/ru/)   |    ∠     | угол            |   `/` `L`     |
-| [221f](https://unicode-table.com/ru/)   |    ∟     | прямой угол     |   `\` `L`     |
-| [27c2](https://unicode-table.com/ru/)   |    ⟂     | быть перпендикулярным |   `\` `T` |
-| [2200](https://unicode-table.com/ru/)   |    ∀     | для всех        |   `\` `A`     |
-| [2203](https://unicode-table.com/ru/)   |    ∃     | существовать    |   `\` `E`     |
-| [2204](https://unicode-table.com/ru/)   |    ∄     | не существовать | `/` `E`       |
-| [2228](https://unicode-table.com/ru/)   |    ∨     | логическое сложение (или) | `\` `V` |
-| [2227](https://unicode-table.com/ru/)   |    ∧     | логическое умножение (и) | `/` `V` |
-| [00ac](https://unicode-table.com/ru/)   |    ¬     | логическое отрицание (не) |   `/` `N` |
-| [2205](https://unicode-table.com/ru/)   |    ∅     | пустое множество | `/` `0`      |
-| [227a](https://unicode-table.com/ru/)   |    ≺     | предшествовать  |   `\` `{`     |
-| [227b](https://unicode-table.com/ru/)   |    ≻     | следовать       |   `\` `}`     |
-| [2282](https://unicode-table.com/ru/)   |    ⊂     | быть подмножеством |   `\` `C`  |
-| [2284](https://unicode-table.com/ru/)   |    ⊄     | не быть подмножеством | `/` `C` |
-| [2208](https://unicode-table.com/ru/)   |    ∈     | принадлежать    |   `\` `B`     |
-| [2209](https://unicode-table.com/ru/)   |    ∉     | не принадлежать |  `/` `B`      |
-| [222a](https://unicode-table.com/ru/)   |    ∪     | объединение     |   `\` `U`     |
-| [2229](https://unicode-table.com/ru/)   |    ∩     | пересечение     |   `/` `U`     |
-| [2218](https://unicode-table.com/ru/)   |    ∘     | кольцевой оператор |   `\` `O`  |
-| [2217](https://unicode-table.com/ru/)   |    ∗     | оператор звездочка |  `\` `*`   |
-| [22c6](https://unicode-table.com/ru/)   |    ⋆     | оператор звезда   |   `/` `*`   |
-| [25b7](https://unicode-table.com/ru/)   |    ▷     | начало доказательства |   `/` `>` |
-| [25c1](https://unicode-table.com/ru/)   |    ◁     | конец доказательства  |   `/` `<` |
+| [2032](https://unicode-table.com/ru/2032)   |    ′     | штрих (минуты, футы) |   `/` `'`     |
+| [2033](https://unicode-table.com/ru/2033)   |    ″     | двойной штрих (секунды, дюймы) |   `/` `Shift`+`'` |
+| [2034](https://unicode-table.com/ru/2034)   |    ‴     | тройной штрих   |   `/` `;`     |
+| [207a](https://unicode-table.com/ru/207a)   |    ⁺     | надстрочный плюс |  `AltGr`+`Shift`+`P` |
+| [207b](https://unicode-table.com/ru/207b)   |    ⁻     | надстрочный минус |  `AltGr`+`Shift`+`M` |
+| [00d7](https://unicode-table.com/ru/00d7)   |    ×     | умножение       |   `AltGr`+`X` |
+| [2219](https://unicode-table.com/ru/2219)   |    ·     | умножение       |   `AltGr`+`.` |
+| [2212](https://unicode-table.com/ru/2212)   |    −     | вычитание       |   `\` `-`     |
+| [00f7](https://unicode-table.com/ru/00f7)   |    ÷     | деление         |   `AltGr`+`/` |
+| [221a](https://unicode-table.com/ru/221a)   |    √     | квадратный корень |   `AltGr`+`V` |
+| [2248](https://unicode-table.com/ru/2248)   |    ≈     | быть примерно равным |  `AltGr`+`=` |
+| [2261](https://unicode-table.com/ru/2261)   |    ≡     | быть тождественно равным |   `\` `=` |
+| [2260](https://unicode-table.com/ru/2260)   |    ≠     | не быть равным  |   `/` `=`     |
+| [00b1](https://unicode-table.com/ru/00b1)   |    ±     | плюс-минус      |   `\` `+`     |
+| [2264](https://unicode-table.com/ru/2264)   |    ≤     | быть меньше или равно |  `\` `<` |
+| [2265](https://unicode-table.com/ru/2265)   |    ≥     | быть больше или равно |   `\` `>` |
+| [221e](https://unicode-table.com/ru/221e)   |    ∞     | бесконечность   |   `\` `8`     |
+| [2030](https://unicode-table.com/ru/2030)   |    ‰     | промилле        |   `AltGr`+`M` |
+| [2031](https://unicode-table.com/ru/2031)   |    ‱     | десять тысячных |   `AltGr`+`T` |
+| [2329](https://unicode-table.com/ru/2329)   |    〈    | левая угловая скобка | `\` `[`  |
+| [232a](https://unicode-table.com/ru/232a)   |    〉    | правая угловая скобка | `\` `]` |
+| [2220](https://unicode-table.com/ru/2220)   |    ∠     | угол            |   `/` `L`     |
+| [221f](https://unicode-table.com/ru/221f)   |    ∟     | прямой угол     |   `\` `L`     |
+| [27c2](https://unicode-table.com/ru/27c2)   |    ⟂     | быть перпендикулярным |   `\` `T` |
+| [2200](https://unicode-table.com/ru/2200)   |    ∀     | для всех        |   `\` `A`     |
+| [2203](https://unicode-table.com/ru/2203)   |    ∃     | существовать    |   `\` `E`     |
+| [2204](https://unicode-table.com/ru/2204)   |    ∄     | не существовать | `/` `E`       |
+| [2228](https://unicode-table.com/ru/2228)   |    ∨     | логическое сложение (или) | `\` `V` |
+| [2227](https://unicode-table.com/ru/2227)   |    ∧     | логическое умножение (и) | `/` `V` |
+| [00ac](https://unicode-table.com/ru/00ac)   |    ¬     | логическое отрицание (не) |   `/` `N` |
+| [2205](https://unicode-table.com/ru/2205)   |    ∅     | пустое множество | `/` `0`      |
+| [227a](https://unicode-table.com/ru/227a)   |    ≺     | предшествовать  |   `\` `{`     |
+| [227b](https://unicode-table.com/ru/227b)   |    ≻     | следовать       |   `\` `}`     |
+| [2282](https://unicode-table.com/ru/2282)   |    ⊂     | быть подмножеством |   `\` `C`  |
+| [2284](https://unicode-table.com/ru/2284)   |    ⊄     | не быть подмножеством | `/` `C` |
+| [2208](https://unicode-table.com/ru/2208)   |    ∈     | принадлежать    |   `\` `B`     |
+| [2209](https://unicode-table.com/ru/2209)   |    ∉     | не принадлежать |  `/` `B`      |
+| [222a](https://unicode-table.com/ru/222a)   |    ∪     | объединение     |   `\` `U`     |
+| [2229](https://unicode-table.com/ru/2229)   |    ∩     | пересечение     |   `/` `U`     |
+| [2218](https://unicode-table.com/ru/2218)   |    ∘     | кольцевой оператор |   `\` `O`  |
+| [2217](https://unicode-table.com/ru/2217)   |    ∗     | оператор звездочка |  `\` `*`   |
+| [22c6](https://unicode-table.com/ru/22c6)   |    ⋆     | оператор звезда   |   `/` `*`   |
+| [25b7](https://unicode-table.com/ru/25b7)   |    ▷     | начало доказательства |   `/` `>` |
+| [25c1](https://unicode-table.com/ru/25c1)   |    ◁     | конец доказательства  |   `/` `<` |
 
 &nbsp;&nbsp;&nbsp;&nbsp;Подстрочные цифры можно вводить используя сочетание клавиш `AltGr` и цифровой клавиши, a надстрочные цифры — используя сочетание клавиш `AltGr`+`Shift` и цифровой клавиши. Эти цифры могут быть полезны, когда нужно возвести число или единицы физических величин в целую степень ( 6,674×10⁻¹¹ м³·кг⁻¹·с⁻² ), написать дроби ( ³/₅ ), написать формулы химических веществ или реакций ( H₂O ), и т.п.
 
