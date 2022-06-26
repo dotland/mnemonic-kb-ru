@@ -1,19 +1,19 @@
 Russian Mnemonic keyboard
 ==============
 
-© Dotland
-
 Version 1.0.0
 
 Description
 -----------
-
 Russian Mnemonic keyboard layout.
 
 Links
 -----
+[https://github.com/dotland/mnemonic-kb-ru/blob/main/README.md](https://github.com/dotland/mnemonic-kb-ru/blob/main/README.md)
 
-https://github.com/dotland/mnemonic-kb-ru
+Copyright
+---------
+See [LICENSE.md](LICENSE.md)
 
 Supported Platforms
 -------------------
@@ -28,3 +28,4 @@ Supported Platforms
  * Mobile devices
  * Desktop devices
  * Tablet devices
+

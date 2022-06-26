@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>14.0.292.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>15.0.263.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -16,7 +16,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">Russian Mnemonic KM</Name>
+    <Name URL="">Russian Mnemonic</Name>
     <Copyright URL="">© 2022 Dotland</Copyright>
     <Author URL="mailto:tisarukhan@gmail.com">Tigran Sarukhanyan</Author>
     <Version URL="">1.0.0</Version>
@@ -24,19 +24,19 @@
   </Info>
   <Files>
     <File>
-      <Name>..\build\rum.kmx</Name>
+      <Name>..\build\basic_kbdrum.kmx</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
     <File>
-      <Name>..\build\rum.js</Name>
+      <Name>..\build\basic_kbdrum.js</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
     </File>
     <File>
-      <Name>..\build\rum.kvk</Name>
+      <Name>..\build\basic_kbdrum.kvk</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kvk</FileType>
@@ -46,6 +46,18 @@
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>basic_kbdrum.ico</Name>
+      <Description>File basic_kbdrum.ico</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ico</FileType>
+    </File>
+    <File>
+      <Name>splash.png</Name>
+      <Description>File splash.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
     </File>
     <File>
       <Name>welcome\RUM.png</Name>
@@ -74,24 +86,6 @@
     <File>
       <Name>welcome\RUM-shift.png</Name>
       <Description>File RUM-shift.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>welcome\welcome.htm</Name>
-      <Description>File welcome.htm</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.htm</FileType>
-    </File>
-    <File>
-      <Name>rum.ico</Name>
-      <Description>File rum.ico</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.ico</FileType>
-    </File>
-    <File>
-      <Name>splash.png</Name>
-      <Description>File splash.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
@@ -125,11 +119,17 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.jpg</FileType>
     </File>
+    <File>
+      <Name>welcome\welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Russian Mnemonic KM</Name>
-      <ID>rum</ID>
+      <Name>Russian Mnemonic</Name>
+      <ID>basic_kbdrum</ID>
       <Version>1.0.0</Version>
       <Languages>
         <Language ID="ru">Russian</Language>

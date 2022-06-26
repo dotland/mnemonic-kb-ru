@@ -9,25 +9,25 @@
   </Options>
   <Files>
     <File>
-      <ID>id_3c6c98e1bb4fadb75025c2d635106cd2</ID>
-      <Filename>rum.kmn</Filename>
-      <Filepath>source\rum.kmn</Filepath>
+      <ID>id_8ad149622bc5e59166630a3e019e3e7f</ID>
+      <Filename>basic_kbdrum.kmn</Filename>
+      <Filepath>source\basic_kbdrum.kmn</Filepath>
       <FileVersion>1.0.0</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
-        <Name>Russian Mnemonic KM</Name>
-        <Copyright>© 2022 Dotland</Copyright>
+        <Name>Russian Mnemonic</Name>
+        <Copyright>© Dotland</Copyright>
         <Message>The Russian Mnemonic Keyman keyboard is distributed under the MIT License (MIT). It is a rewrite of the Russian Mnemonic Keyman Keyboard with improved dead-keys processing, and enhanced with special and math symbols. Contributed by Tigran Sarukhanyan (tisarukhan@gmail.com). June 2022</Message>
       </Details>
     </File>
     <File>
-      <ID>id_201ef71d1312dfe0c83369bb4d7cc381</ID>
-      <Filename>rum.kps</Filename>
-      <Filepath>source\rum.kps</Filepath>
+      <ID>id_ed02e92d5dddad4ffb113218eb7498e7</ID>
+      <Filename>basic_kbdrum.kps</Filename>
+      <Filepath>source\basic_kbdrum.kps</Filepath>
       <FileVersion>1.0.0</FileVersion>
       <FileType>.kps</FileType>
       <Details>
-        <Name>Russian Mnemonic KM</Name>
+        <Name>Russian Mnemonic</Name>
         <Copyright>© 2022 Dotland</Copyright>
         <Version>1.0.0</Version>
       </Details>
@@ -54,43 +54,43 @@
       <FileType>.md</FileType>
     </File>
     <File>
-      <ID>id_6c084e6537593f609aa2a942a01db1e9</ID>
-      <Filename>rum.keyboard_info</Filename>
-      <Filepath>rum.keyboard_info</Filepath>
+      <ID>id_62f09c03c546586bcc9c5b61eedd4f3b</ID>
+      <Filename>basic_kbdrum.keyboard_info</Filename>
+      <Filepath>basic_kbdrum.keyboard_info</Filepath>
       <FileVersion></FileVersion>
       <FileType>.keyboard_info</FileType>
     </File>
     <File>
-      <ID>id_f29b543b70452f003e20f3d052774532</ID>
-      <Filename>rum.ico</Filename>
-      <Filepath>source\rum.ico</Filepath>
+      <ID>id_f6f082621e844918750dc0d907ad2515</ID>
+      <Filename>basic_kbdrum.ico</Filename>
+      <Filepath>source\basic_kbdrum.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
-      <ParentFileID>id_3c6c98e1bb4fadb75025c2d635106cd2</ParentFileID>
+      <ParentFileID>id_8ad149622bc5e59166630a3e019e3e7f</ParentFileID>
     </File>
     <File>
-      <ID>id_35b15e7116c5620ad4c4fa56ecfc752f</ID>
-      <Filename>rum.kmx</Filename>
-      <Filepath>source\..\build\rum.kmx</Filepath>
+      <ID>id_34b8f850d59ee3a15769020d61be80c8</ID>
+      <Filename>basic_kbdrum.kmx</Filename>
+      <Filepath>source\..\build\basic_kbdrum.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
     <File>
-      <ID>id_2124f295d298aaa9ac9d881b57e9f113</ID>
-      <Filename>rum.js</Filename>
-      <Filepath>source\..\build\rum.js</Filepath>
+      <ID>id_ed701af7f0d07f28c40333ffd97208a0</ID>
+      <Filename>basic_kbdrum.js</Filename>
+      <Filepath>source\..\build\basic_kbdrum.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
     <File>
-      <ID>id_44aefef3c3b72ac91a4557a2040baed6</ID>
-      <Filename>rum.kvk</Filename>
-      <Filepath>source\..\build\rum.kvk</Filepath>
+      <ID>id_e964ef18f3f51b99af65044ac0b8d7b4</ID>
+      <Filename>basic_kbdrum.kvk</Filename>
+      <Filepath>source\..\build\basic_kbdrum.kvk</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvk</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
     <File>
       <ID>id_8da344c4cea6f467013357fe099006f5</ID>
@@ -98,55 +98,7 @@
       <Filepath>source\readme.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
-    </File>
-    <File>
-      <ID>id_d61dee7ff487f28768ea2d8954591b06</ID>
-      <Filename>RUM.png</Filename>
-      <Filepath>source\welcome\RUM.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
-    </File>
-    <File>
-      <ID>id_79935099131f8eaca51d94453dc67f85</ID>
-      <Filename>RUM-altgr.png</Filename>
-      <Filepath>source\welcome\RUM-altgr.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
-    </File>
-    <File>
-      <ID>id_7c5039137654f9cab28369b988b300c6</ID>
-      <Filename>RUM-altgr-shift.png</Filename>
-      <Filepath>source\welcome\RUM-altgr-shift.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
-    </File>
-    <File>
-      <ID>id_78fe77ffe44221b91ff3c8fea11e7d2b</ID>
-      <Filename>RUM-caps-lock.png</Filename>
-      <Filepath>source\welcome\RUM-caps-lock.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
-    </File>
-    <File>
-      <ID>id_b77cd4dca12eccc53134506c9e1b6ecd</ID>
-      <Filename>RUM-shift.png</Filename>
-      <Filepath>source\welcome\RUM-shift.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
-    </File>
-    <File>
-      <ID>id_724e5b4c63f10bc0abf7077f7c3172fc</ID>
-      <Filename>welcome.htm</Filename>
-      <Filepath>source\welcome\welcome.htm</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.htm</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
     <File>
       <ID>id_f6e7ba45d40eed14a854fd7b967cb1e2</ID>
@@ -154,7 +106,47 @@
       <Filepath>source\splash.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_d61dee7ff487f28768ea2d8954591b06</ID>
+      <Filename>RUM.png</Filename>
+      <Filepath>source\welcome\RUM.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_79935099131f8eaca51d94453dc67f85</ID>
+      <Filename>RUM-altgr.png</Filename>
+      <Filepath>source\welcome\RUM-altgr.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_7c5039137654f9cab28369b988b300c6</ID>
+      <Filename>RUM-altgr-shift.png</Filename>
+      <Filepath>source\welcome\RUM-altgr-shift.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_78fe77ffe44221b91ff3c8fea11e7d2b</ID>
+      <Filename>RUM-caps-lock.png</Filename>
+      <Filepath>source\welcome\RUM-caps-lock.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_b77cd4dca12eccc53134506c9e1b6ecd</ID>
+      <Filename>RUM-shift.png</Filename>
+      <Filepath>source\welcome\RUM-shift.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
     <File>
       <ID>id_6102985df063d4e1d14e5c3b92819aca</ID>
@@ -162,7 +154,7 @@
       <Filepath>source\welcome\touch-RUM.jpg</Filepath>
       <FileVersion></FileVersion>
       <FileType>.jpg</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
     <File>
       <ID>id_2594998b000bfc7e98a939b42d93dc1c</ID>
@@ -170,7 +162,7 @@
       <Filepath>source\welcome\touch-RUM-num1.jpg</Filepath>
       <FileVersion></FileVersion>
       <FileType>.jpg</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
     <File>
       <ID>id_04ce28bf61cb0f1ee65913df9fb6e9ce</ID>
@@ -178,7 +170,7 @@
       <Filepath>source\welcome\touch-RUM-num2.jpg</Filepath>
       <FileVersion></FileVersion>
       <FileType>.jpg</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
     <File>
       <ID>id_38e8329d5773fb55858512aff49d330e</ID>
@@ -186,7 +178,7 @@
       <Filepath>source\welcome\touch-RUM-shift.jpg</Filepath>
       <FileVersion></FileVersion>
       <FileType>.jpg</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
     <File>
       <ID>id_d05faeb7342abd6556a2e2e1fc2abe37</ID>
@@ -194,7 +186,15 @@
       <Filepath>source\welcome\touch-RUM-shift-twice.jpg</Filepath>
       <FileVersion></FileVersion>
       <FileType>.jpg</FileType>
-      <ParentFileID>id_201ef71d1312dfe0c83369bb4d7cc381</ParentFileID>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_724e5b4c63f10bc0abf7077f7c3172fc</ID>
+      <Filename>welcome.htm</Filename>
+      <Filepath>source\welcome\welcome.htm</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.htm</FileType>
+      <ParentFileID>id_ed02e92d5dddad4ffb113218eb7498e7</ParentFileID>
     </File>
   </Files>
 </KeymanDeveloperProject>
