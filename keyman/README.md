@@ -1,7 +1,5 @@
-Russian Mnemonic keyboard
+Russian Mnemonic R keyboard
 ==============
-
-Version 1.0.0
 
 Description
 -----------

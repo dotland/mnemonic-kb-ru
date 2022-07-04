@@ -10,33 +10,34 @@
     <GraphicFile>splash.png</GraphicFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
   </Options>
   <StartMenu>
     <Folder></Folder>
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">Russian Mnemonic</Name>
-    <Copyright URL="">© 2022 Dotland</Copyright>
+    <Name URL="">Russian Mnemonic R</Name>
+    <Copyright URL="">© Dotland</Copyright>
     <Author URL="mailto:tisarukhan@gmail.com">Tigran Sarukhanyan</Author>
-    <Version URL="">1.0.0</Version>
+    <Version URL=""></Version>
     <WebSite URL="https://github.com/dotland/mnemonic-kb-ru/blob/main/README.md">https://github.com/dotland/mnemonic-kb-ru/blob/main/README.md</WebSite>
   </Info>
   <Files>
     <File>
-      <Name>..\build\basic_kbdrum.kmx</Name>
+      <Name>..\build\russian_mnemonic_r.kmx</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
     <File>
-      <Name>..\build\basic_kbdrum.js</Name>
+      <Name>..\build\russian_mnemonic_r.js</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
     </File>
     <File>
-      <Name>..\build\basic_kbdrum.kvk</Name>
+      <Name>..\build\russian_mnemonic_r.kvk</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kvk</FileType>
@@ -48,8 +49,8 @@
       <FileType>.htm</FileType>
     </File>
     <File>
-      <Name>basic_kbdrum.ico</Name>
-      <Description>File basic_kbdrum.ico</Description>
+      <Name>russian_mnemonic_r.ico</Name>
+      <Description>File russian_mnemonic_r.ico</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.ico</FileType>
     </File>
@@ -128,8 +129,8 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Russian Mnemonic</Name>
-      <ID>basic_kbdrum</ID>
+      <Name>Russian Mnemonic R</Name>
+      <ID>russian_mnemonic_r</ID>
       <Version>1.0.0</Version>
       <Languages>
         <Language ID="ru">Russian</Language>

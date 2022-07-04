@@ -1,19 +1,18 @@
-﻿c basic_kbdrum generated from template at 2022-06-26 15:56:23
-c with name "Russian Mnemonic"
+﻿c russian_mnemonic_r generated from template at 2022-07-02 12:49:50
+c with name "Russian Mnemonic R"
 store(&VERSION) '14.0'
-store(&NAME) 'Russian Mnemonic'
+store(&NAME) 'Russian Mnemonic R'
 store(&COPYRIGHT) '© Dotland'
 store(&KEYBOARDVERSION) '1.0.0'
 store(&TARGETS) 'any'
-store(&VISUALKEYBOARD) 'basic_kbdrum.kvks'
-store(&LAYOUTFILE) 'basic_kbdrum.keyman-touch-layout'
-store(&MESSAGE) 'The Russian Mnemonic Keyman keyboard is distributed under the MIT License (MIT). It is a rewrite of the Russian Mnemonic Keyman Keyboard with improved dead-keys processing, and enhanced with special and math symbols. Contributed by Tigran Sarukhanyan (tisarukhan@gmail.com). June 2022'
-store(&BITMAP) 'basic_kbdrum.ico'
+store(&VISUALKEYBOARD) 'russian_mnemonic_r.kvks'
+store(&LAYOUTFILE) 'russian_mnemonic_r.keyman-touch-layout'
+store(&MESSAGE) 'The Russian Mnemonic R Keyman keyboard is distributed under the MIT License (MIT). It is a rewrite of the Russian - Mnemonic Keyman Keyboard with improved dead-keys processing, and enhanced with special and math symbols. Contributed by Tigran Sarukhanyan (tisarukhan@gmail.com). June 2022'
+store(&BITMAP) 'russian_mnemonic_r.ico'
 
 begin Unicode > use(main)
 
 group(main) using keys
-
 
 + [SHIFT RALT K_PERIOD] > '»'
 + [SHIFT RALT K_COMMA] > '«'
@@ -547,10 +546,10 @@ dk(capital_tse) notany(tse_base_keys) > U+0426 context(2)
 dk(capital_tse) any(tse_base_keys) > index(capital_tse_res, 2)
 
 
-c **********************        ␠      b       B       z       Z       a       A       g       G       s             S               w       W       e       E       u       U       i       I       y               Y                 o       O       c              C                RALT+`  '       "       /
-store(diaeresis_base_keys)      U+0020  U+0431  U+0411  U+0437  U+0417  U+0430  U+0410  U+0433  U+0413  dk(small_es)  dk(capital_es)  U+0448  U+0428  U+0435  U+0415  U+0443  U+0423  U+0438  U+0418  dk(small_yeru)  dk(capital_yeru)  U+043E  U+041E  dk(small_tse)  dk(capital_tse)  U+00A8  U+044C  U+042C  dk(slash)
-c --------------- RALT + `      ¨       ъ       Ъ       ж       Ж       э       Э       ѓ       Ѓ       ш             Ш               щ       Щ       ё       Ё       ю       Ю       ї       Ї       ў               Ў                 ё       Ё       ч              Ч                `       ´       ´       ´
-store(diaeresis_res)            U+00A8  U+044A  U+042A  U+0436  U+0416  U+044D  U+042D  U+0453  U+0403  U+0448        U+0428          U+0449  U+0429  U+0451  U+0401  U+044E  U+042E  U+0457  U+0407  U+045E          U+040E            U+0451  U+0401  U+0447         U+0427           U+0060  U+00B4  U+00B4  U+00B4
+c **********************        ␠      b       B       z       Z       a       A       g       G       s             S               w       W       e       E       u       U       i       I       y               Y                 o       O       c              C                RALT+`         '       "       /
+store(diaeresis_base_keys)      U+0020  U+0431  U+0411  U+0437  U+0417  U+0430  U+0410  U+0433  U+0413  dk(small_es)  dk(capital_es)  U+0448  U+0428  U+0435  U+0415  U+0443  U+0423  U+0438  U+0418  dk(small_yeru)  dk(capital_yeru)  U+043E  U+041E  dk(small_tse)  dk(capital_tse)  dk(diaeresis)  U+044C  U+042C  dk(slash)
+c --------------- RALT + `      ¨       ъ       Ъ       ж       Ж       э       Э       ѓ       Ѓ       ш             Ш               щ       Щ       ё       Ё       ю       Ю       ї       Ї       ў               Ў                 ё       Ё       ч              Ч                `              ´       ´       ´
+store(diaeresis_res)            U+00A8  U+044A  U+042A  U+0436  U+0416  U+044D  U+042D  U+0453  U+0403  U+0448        U+0428          U+0449  U+0429  U+0451  U+0401  U+044E  U+042E  U+0457  U+0407  U+045E          U+040E            U+0451  U+0401  U+0447         U+0427           U+0060         U+00B4  U+00B4  U+00B4
 
 dk(diaeresis) notany(diaeresis_base_keys) > U+00A8 context(2)
 dk(diaeresis) any(diaeresis_base_keys) > index(diaeresis_res, 2)

@@ -1,6 +1,6 @@
 {
     "license": "mit",
-    "languages": [
+    "languages": {
         "ru" : {
             "example" : {
                 "keys" : "Russkij  qzyk",
@@ -8,6 +8,6 @@
                 "note" : "Name of language"
             }
         }
-    ],
-	  "description": "Russian Mnemonic keyboard layout"
+    },
+	  "description": "Russian Mnemonic R keyboard layout"
 }

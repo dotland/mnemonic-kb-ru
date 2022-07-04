@@ -1,43 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Start Using Russian Mnemonic R</title>
-  <style type="text/css">
-    p { font: 10pt Tahoma; }
-    h1 { font: bold 16pt Tahoma; color: #4444cc; margin-bottom: 2px }
-    h2 { font: bold 12pt Tahoma; color: #4444cc; }
-	kbd {
-	  background-color: #eee;
-	  border-radius: 3px;
-	  border: 1px solid #b4b4b4;
-	  box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
-	  color: #333;
-	  display: inline-block;
-	  font-size: 1.15em;
-	  font-weight: 700;
-	  font-style: normal;
-	  line-height: 1;
-	  padding: 2px 4px;
-	  white-space: nowrap;
-	}
-  </style>
-</head>
-<body>
+<?php 
+  $pagename = 'Russian Mnemonic R Keyboard Help';
+  $pagetitle = 'Russian Mnemonic R Keyboard Help';
 
-<h1>Start Using Russian Mnemonic R</h1>
+  require_once('header.php');
+?>
 
 <p>
-    <a href="link:https://github.com/dotland/mnemonic-kb-ru">Russian Mnemonic R<a> 1.0.0.
+Russian Mnemonic R is a rewrite of the <a href="https://help.keyman.com/keyboard/basic_kbdrum/">Russian - Mnemonic Basic</a> keyboard with improved dead-keys processing, and enhanced with special and math symbols.
 </p>
 
 <p style='margin: 16px 0 0 0'>
 A font must be installed to support this keyboard. Windows includes a number of fonts which support the <b>Cyrillic</b> script.
 </p>
+<p>
+If square boxes are displayed instead of characters when using this keyboard (and in the keyboard layouts below), please read our <a href="/troubleshooting/#boxes">troubleshooting guide</a>.
+</p>
 
 <p>
-Visit &nbsp;<a href="link:https://github.com/dotland/mnemonic-kb-ru/blob/main/README.md">GitHub.com/dotland/mnemonic-kb-ru<a>&nbsp; for extensive documentation on using the keyboard.
+Visit <a href="https://github.com/dotland/mnemonic-kb-ru/blob/main/README.md">GitHub.com/dotland/mnemonic-kb-ru</a> for extensive documentation on using the keyboard.
 </p>
 
 <p>This keyboard uses eleven dead keys, such as: <kbd class="key">S</kbd><kbd class="key">s</kbd> <kbd class="key">C</kbd><kbd class="key">c</kbd> <kbd class="key">Y</kbd><kbd class="key">y</kbd> <kbd class="key">J</kbd><kbd class="key">j</kbd> <kbd class="key">\</kbd> <kbd class="key">/</kbd> and <kbd class="key">¨</kbd>, where <kbd class="key">¨</kbd> is <kbd class="key">AltGr</kbd>+<kbd class="key">`</kbd>, and <kbd class="key">S</kbd> is <kbd class="key">Shift</kbd>+<kbd class="key">s</kbd> or just <kbd class="key">s</kbd> with <kbd class="key">Caps Lock</kbd> turned on. Press one of these keys and then another key to produce the desired output. For instance, press <kbd class="key">S</kbd> and then the <kbd class="key">Space</kbd> to get cyrillic С; press <kbd class="key">S</kbd> and then <kbd class="key">h</kbd> to get cyrillic Ш etc. Please see the tables below for a complete combination.</p>
@@ -339,47 +319,25 @@ Visit &nbsp;<a href="link:https://github.com/dotland/mnemonic-kb-ru/blob/main/RE
 </table>
 <br>
 
+
+<h2>Desktop Keyboard Layout</h2>
+
 <p>
-The following figures show the <b>Russian Mnemonic R</b> keyboard layout in various modifier key states, where the light gray keys represent <a href="link:https://en.wikipedia.org/wiki/Dead_key">dead-keys</a>.
+The following figures show the <b>Russian Mnemonic R</b> keyboard layout in various modifier key states.
 </p>
 
-<h2> Fig. 1. The keyboard without any modifier key pressed</h2>
-<p><img width="800" src="./RUM.png" alt="Russian Mnemonic keyboard layout" title="Russian Mnemonic keyboard layout" /></p>
-
-<h2> Fig. 2. The keyboard with <kbd>Caps Lock</kbd> key pressed</h2>
-<p><img width="800" src="./RUM-caps-lock.png" alt="The keyboard with Caps Lock key pressed" title="The keyboard with Caps Lock key pressed" /></p>
-
-<h2> Fig. 3. The keyboard with <kbd>Shift</kbd> key pressed</h2>
-<p><img width="800" src="./RUM-shift.png" alt="The keyboard with Shift key pressed" title="The keyboard with Shift key pressed" /></p>
-
-<h2> Fig. 4. The keyboard with <kbd>AltGr</kbd> key pressed</h2>
-<p><img width="800" src="./RUM-altgr.png" alt="The keyboard with AltGr key pressed" title="The keyboard with AltGr key pressed" /></p>
-
-<h2> Fig. 5. The keyboard with <kbd>AltGr</kbd>+<kbd>Shift</kbd> key combination</h2>
-<p><img width="800" src="./RUM-altgr-shift.png" alt="The keyboard with AltGr and Shift key combination" title="The keyboard with AltGr and Shift key combination" /></p>
+<div id='osk' data-states='default shift rightalt rightalt-shift'>
+</div>
 
 <br />
+
+<h2>Mobile/Tablet Keyboard Layout</h2>
+
 <p>
 The following figures show the <b>Russian Mnemonic R</b> keyboard layout for touch devices in various states.
 </p>
 
-<h2> Fig. 6. The default touch keyboard</h2>
-<p><img width="400" src="./touch-RUM.jpg" alt="Russian Mnemonic keyboard layout for touch devices" title="Russian Mnemonic keyboard layout for touch devices" /></p>
+<div id='osk-phone' data-states='default shift capslock numeric numeric2'>
+</div>
 
-<h2> Fig. 7. The touch keyboard with <kbd>⇧</kbd> key pressed</h2>
-<p><img width="400" src="./touch-RUM-shift.jpg" alt="The touch keyboard with Shift key pressed" title="The touch keyboard with Shift key pressed" /></p>
-
-<h2> Fig. 8. The touch keyboard with <kbd>⇧</kbd> key pressed twice</h2>
-<p><img width="400" src="./touch-RUM-shift-twice.jpg" alt="The touch keyboard with Shift key pressed twice" title="The touch keyboard with Shift key pressed twice" /></p>
-
-<h2> Fig. 9. The touch keyboard with <kbd>1#₽</kbd> key pressed</h2>
-<p><img width="400" src="./touch-RUM-num1.jpg" alt="The touch keyboard with Num key pressed" title="The touch keyboard with Num key pressed" /></p>
-
-<h2> Fig. 10. The touch keyboard with <kbd>1/2</kbd> key pressed</h2>
-<p><img width="400" src="./touch-RUM-num2.jpg" alt="The touch keyboard with 1/2 key pressed" title="The touch keyboard with 1/2 key pressed" /></p>
-
-
-<p>© <a href="link:https://github.com/dotland">Dotland</a></p>
-
-</body>
-</html>
+<p>© <a href="https://github.com/dotland">Dotland</a></p>
