@@ -297,4 +297,6 @@ sudo ./install.sh
 <a id="8">&nbsp;&nbsp;8.&nbsp;</a>
 [*Википедия свободная энциклопедия.* Таблица математических символов.](https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85_%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2) <br />
 <a id="9">&nbsp;&nbsp;9.&nbsp;</a>
-[Армянская мнемоническая раскладка клавиатуры.](https://github.com/dotland/mnemonic-kb-hy/blob/main/README.md) <br />
+[*Keyman Help.* Russian Mnemonic R Keyboard Help.](https://help.keyman.com/keyboard/russian_mnemonic_r) <br />
+<a id="10">10.&nbsp;</a>
+[Հայկական մնեմոնիկ ստեղնաշարի նախագիծը:](https://github.com/dotland/mnemonic-kb-hy/blob/main/README.md) <br />
