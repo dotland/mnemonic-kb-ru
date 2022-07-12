@@ -240,7 +240,7 @@
 ##### Windows, macOS, Linux
 
 &nbsp;&nbsp;&nbsp;&nbsp;Установите программу Keyman на ОС [Windows](https://keyman.com/windows/), [macOS](https://keyman.com/mac/) или на [Linux](https://keyman.com/linux/). Перейдите в раздел «Конфигурация» ( `Configuration...` ), щелкнув правой кнопкой мыши значок Keyman на панели задач. Затем нажмите кнопку `Install keyboard...`, выберите предварительно загруженный файл [rum.kmp](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/rum.kmp), затем нажмите кнопку `Install`. После успешной установки перезагрузите ОС-у, после чего можно выбрать язык ввода «Russian Mnemonic R» с помощью сочетания левых клавиш `Alt`+`Shift`. <br />
-&nbsp;&nbsp;&nbsp;&nbsp;В ОС Windows может возникнуть проблема с вводом неактивной клавиатурой. Чтобы [исправить](https://help.keyman.com/products/windows/12.0/docs/troubleshooting_hidden) это, сделайте значок Keyman видимым на панели задач.
+&nbsp;&nbsp;&nbsp;&nbsp;В ОС-е Windows может возникнуть проблема с вводом неактивной клавиатурой. Чтобы исправить это, [сделайте значок Keyman видимым](https://help.keyman.com/products/windows/12.0/docs/troubleshooting_hidden) на панели задач, отключите параметры текстовых предложений в настройках ввода и перезагрузите ОС-у.
 
 ##### Android, iOS
 
