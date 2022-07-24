@@ -244,7 +244,7 @@
 
 ##### Android, iOS
 
-&nbsp;&nbsp;&nbsp;&nbsp;Установите приложение Keyman на ОС [Android](https://keyman.com/android/) или [iOS](https://keyman.com/iphone-and-ipad/). Откройте приложение, выберите предварительно загруженный файл [rum.kmp](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/rum.kmp) из настроек ( `⋮` –› `Settings` –› `Install Keyboard or Dictionary` –› `Install from local file` ), затем нажмите кнопку `Install`. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;Установите приложение Keyman на ОС [Android](https://keyman.com/android/) или [iOS](https://keyman.com/iphone-and-ipad/). Откройте приложение, выберите предварительно загруженный файл [rum.kmp](https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/rum.kmp) из настроек ( `⋮` –› `Settings` –› `Install Keyboard or Dictionary` –› `Install from local file` ), затем нажмите кнопку `Install`. Аналогично установите [ru.kmp](https://github.com/dotland/lexical-model-ru/releases/latest/download/ru.kmp) файл для текстовых предложений. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;Русская мнемоническая сенсорная клавиатура имеет другой внешний вид для смартфонов, так как в этом случае нет клавиш-модификаторов:
 
 <p><img width="300" src="./keyman/source/welcome/touch-RUM.jpg" alt="Русская мнемоническая сенсорная клавиатура" title="Русская мнемоническая сенсорная клавиатура" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="300" src="./keyman/source/welcome/touch-RUM-shift.jpg" alt="Русская мнемоническая сенсорная клавиатура после нажатия клавиши Shift" title="Русская мнемоническая сенсорная клавиатура после нажатия клавиши Shift" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="300" src="./keyman/source/welcome/touch-RUM-shift-twice.jpg" alt="Русская мнемоническая сенсорная клавиатура после двойного нажатия клавиши Shift" title="Русская мнемоническая сенсорная клавиатура после двойного нажатия клавиши Shift" /> </p>
@@ -300,3 +300,5 @@ sudo ./install.sh
 [*Keyman Help.* Russian Mnemonic R Keyboard Help.](https://help.keyman.com/keyboard/russian_mnemonic_r) <br />
 <a id="10">10.&nbsp;</a>
 [Հայկական մնեմոնիկ ստեղնաշարի նախագիծը:](https://github.com/dotland/mnemonic-kb-hy/blob/main/README.md) <br />
+<a id="11">11.&nbsp;</a>
+[Лексическая модель для русского языка.](https://github.com/dotland/lexical-model-ru/blob/main/README.md) <br />
