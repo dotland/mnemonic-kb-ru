@@ -301,4 +301,6 @@ sudo ./install.sh
 <a id="10">10.&nbsp;</a>
 [Հայկական մնեմոնիկ ստեղնաշարի նախագիծը:](https://github.com/dotland/mnemonic-kb-hy/blob/main/README.md) <br />
 <a id="11">11.&nbsp;</a>
+[«Armenian Mnemonic R» Keyman ստեղնաշարը:](https://github.com/dotland/mnemonic-kb-hy-r/blob/main/README.md) <br />
+<a id="12">12.&nbsp;</a>
 [Лексическая модель для русского языка.](https://github.com/dotland/lexical-model-ru/blob/main/README.md) <br />
