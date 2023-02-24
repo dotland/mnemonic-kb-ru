@@ -274,7 +274,7 @@
 
 #### Linux
 
-&nbsp;&nbsp;&nbsp;&nbsp;Откройте терминал с помощью сочетания клавиш&nbsp; `Ctrl`+`Alt`+`T` &nbsp;и выполните следующие команды:
+&nbsp;&nbsp;&nbsp;&nbsp;Откройте терминал с помощью сочетания клавиш&nbsp; `Ctrl` + `Alt` + `T` &nbsp;и выполните следующие команды:
 
 ```shell
 git clone https://github.com/dotland/mnemonic-kb-ru.git
