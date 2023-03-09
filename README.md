@@ -196,7 +196,7 @@
 | :---                                        |  :---:   | :---            |    :---:      |
 | [00b0](https://unicode-table.com/ru/00b0)   |    °     | градус          |   `AltGr`+`Shift`+`Օ` |
 | [2032](https://unicode-table.com/ru/2032)   |    ′     | штрих (минуты, футы) |   `/` `'`     |
-| [2033](https://unicode-table.com/ru/2033)   |    ″     | двойной штрих (секунды, дюймы) |   `/` `Shift`+`'` |
+| [2033](https://unicode-table.com/ru/2033)   |    ″     | двойной штрих (секунды, дюймы) |   `/` `"` |
 | [2034](https://unicode-table.com/ru/2034)   |    ‴     | тройной штрих   |   `/` `;`     |
 | [207a](https://unicode-table.com/ru/207a)   |    ⁺     | надстрочный плюс |  `AltGr`+`Shift`+`P` |
 | [207b](https://unicode-table.com/ru/207b)   |    ⁻     | надстрочный минус |  `AltGr`+`Shift`+`M` |
@@ -205,9 +205,9 @@
 | [2212](https://unicode-table.com/ru/2212)   |    −     | вычитание       |   `\` `-`     |
 | [00f7](https://unicode-table.com/ru/00f7)   |    ÷     | деление         |   `AltGr`+`/` |
 | [221a](https://unicode-table.com/ru/221a)   |    √     | квадратный корень |   `AltGr`+`V` |
-| [2248](https://unicode-table.com/ru/2248)   |    ≈     | быть примерно равным |  `AltGr`+`=` |
+| [2248](https://unicode-table.com/ru/2248)   |    ≈     | быть почти равным |  `AltGr`+`=` |
 | [2261](https://unicode-table.com/ru/2261)   |    ≡     | быть тождественно равным |   `\` `=` |
-| [2260](https://unicode-table.com/ru/2260)   |    ≠     | не быть равным  |   `/` `=`     |
+| [2260](https://unicode-table.com/ru/2260)   |    ≠     | быть не равным  |   `/` `=`     |
 | [00b1](https://unicode-table.com/ru/00b1)   |    ±     | плюс-минус      |   `\` `+`     |
 | [2264](https://unicode-table.com/ru/2264)   |    ≤     | быть меньше или равно |  `\` `<` |
 | [2265](https://unicode-table.com/ru/2265)   |    ≥     | быть больше или равно |   `\` `>` |
