@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 351 on 2022-05-11 at 12:10 (GMT+2)-->
+<!--Last edited by Ukelele version 396 on 2024-05-28 at 20:52 (GMT+4)-->
 <!--Edited by Dotland (githab.com/dotland).-->
-<keyboard group="126" id="-17795" name="Russian - Mnemonic" maxout="1">
+<keyboard group="126" id="-14130" name="Russian - Mnemonic R" maxout="1">
     <!---->
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -38,67 +38,71 @@
             <modifier keys="caps? anyOption command"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="7">
-            <modifier keys="anyShift caps? option? command? control"/>
-            <modifier keys="shift? caps? anyOption command? control"/>
-            <modifier keys="caps? anyOption? command? control"/>
+            <modifier keys="anyShift caps? anyOption? command? anyControl"/>
+            <modifier keys="anyShift? caps? anyOption command? anyControl"/>
+            <modifier keys="caps? anyOption? command? anyControl"/>
         </keyMapSelect>
     </modifierMap>
     <keyMapSet id="16c">
         <keyMap index="0">
-            <key code="0" action="13"/>
-            <key code="1" action="с"/>
+            <key code="0" action="20"/>
+            <key code="1" action="с 1"/>
             <key code="2" output="д"/>
             <key code="3" output="ф"/>
-            <key code="4" action="ы"/>
-            <key code="5" action="г"/>
-            <key code="6" action="з"/>
-            <key code="7" action="х"/>
-            <key code="8" action="ц"/>
-            <key code="9" action="в"/>
+            <key code="4" action="ы 1"/>
+            <key code="5" action="г 1"/>
+            <key code="6" action="з 1"/>
+            <key code="7" action="х 1"/>
+            <key code="8" action="ц 1"/>
+            <key code="9" action="в 1"/>
             <key code="10" output="§"/>
-            <key code="11" action="б"/>
+            <key code="11" action="б 1"/>
             <key code="12" output="я"/>
-            <key code="13" action="ш"/>
-            <key code="14" action="14"/>
+            <key code="13" action="ш 1"/>
+            <key code="14" action="21"/>
             <key code="15" output="р"/>
-            <key code="16" action="19"/>
-            <key code="17" action="т"/>
+            <key code="16" action="25"/>
+            <key code="17" action="т 1"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
             <key code="21" output="4"/>
             <key code="22" output="6"/>
             <key code="23" output="5"/>
-            <key code="24" action="="/>
+            <key code="24" action="= 2"/>
             <key code="25" output="9"/>
             <key code="26" output="7"/>
-            <key code="27" action="-"/>
-            <key code="28" action="8 1"/>
-            <key code="29" action="0 1"/>
-            <key code="30" action="]"/>
-            <key code="31" action="17"/>
-            <key code="32" action="18"/>
-            <key code="33" action="["/>
-            <key code="34" action="15"/>
+            <key code="27" action="- 2"/>
+            <key code="28" action="8 3"/>
+            <key code="29" action="0 3"/>
+            <key code="30" action="] 2"/>
+            <key code="31" action="22"/>
+            <key code="32" action="26"/>
+            <key code="33" action="[ 2"/>
+            <key code="34" action="27"/>
             <key code="35" output="п"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" action="л"/>
-            <key code="38" action="ь"/>
-            <key code="39" action="ь 1"/>
-            <key code="40" action="к 1"/>
-            <key code="41" action=";"/>
-            <key code="42" action="\"/>
-            <key code="43" action=","/>
-            <key code="44" action="/"/>
-            <key code="45" action="16"/>
+            <key code="37" action="л 1"/>
+            <key code="38" action="ь 2"/>
+            <key code="39" action="ь 3"/>
+            <key code="40" action="к 2"/>
+            <key code="41" action="; 1"/>
+            <key code="42" action="\ 2"/>
+            <key code="43" action=", 2"/>
+            <key code="44" action="/ 2"/>
+            <key code="45" action="28"/>
             <key code="46" output="м"/>
-            <key code="47" action="."/>
+            <key code="47" action=". 2"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" action="5"/>
-            <key code="50" action="ъ"/>
+            <key code="49" action="29"/>
+            <key code="50" action="ъ 1"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="55" output=""/>
+            <key code="56" output=""/>
+            <key code="58" output=""/>
+            <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
             <key code="67" output="*"/>
@@ -110,6 +114,8 @@
             <key code="76" output="&#x0003;"/>
             <key code="77" output="&#x001E;"/>
             <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -170,7 +176,7 @@
             <key code="13" action="Ш"/>
             <key code="14" action="7"/>
             <key code="15" output="Р"/>
-            <key code="16" action="12"/>
+            <key code="16" action="24"/>
             <key code="17" action="Т"/>
             <key code="18" output="!"/>
             <key code="19" output="@"/>
@@ -208,6 +214,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="*"/>
             <key code="67" output="*"/>
@@ -219,6 +226,8 @@
             <key code="76" output="&#x0003;"/>
             <key code="77" output="/"/>
             <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -317,6 +326,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
             <key code="67" output="*"/>
@@ -328,6 +338,8 @@
             <key code="76" output="&#x0003;"/>
             <key code="77" output="&#x001E;"/>
             <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -378,7 +390,7 @@
             <key code="3" output="£"/>
             <key code="4" output=""/>
             <key code="5" output="₴"/>
-            <key code="6" output=""/>
+            <key code="6" output="÷"/>
             <key code="7" output="×"/>
             <key code="8" output="℃"/>
             <key code="9" output="√"/>
@@ -411,12 +423,12 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" output="₾"/>
             <key code="38" output=""/>
-            <key code="39" output="́"/>
+            <key code="39" output="&#x0027;"/>
             <key code="40" output=""/>
             <key code="41" output="…"/>
-            <key code="42" output=""/>
+            <key code="42" output="̀"/>
             <key code="43" output="’"/>
-            <key code="44" output="÷"/>
+            <key code="44" output="́"/>
             <key code="45" output="№"/>
             <key code="46" output="‰"/>
             <key code="47" output="·"/>
@@ -426,6 +438,9 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="56" output=""/>
+            <key code="58" output=""/>
+            <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
             <key code="67" output="*"/>
@@ -437,6 +452,8 @@
             <key code="76" output="&#x0003;"/>
             <key code="77" output="&#x001E;"/>
             <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -520,7 +537,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" output="₤"/>
             <key code="38" output=""/>
-            <key code="39" output="̀"/>
+            <key code="39" output="&#x0022;"/>
             <key code="40" output=""/>
             <key code="41" output=""/>
             <key code="42" output=""/>
@@ -535,6 +552,9 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="56" output=""/>
+            <key code="58" output=""/>
+            <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="*"/>
             <key code="67" output="*"/>
@@ -546,6 +566,8 @@
             <key code="76" output="&#x0003;"/>
             <key code="77" output="/"/>
             <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -644,6 +666,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
             <key code="67" output="*"/>
@@ -655,6 +678,8 @@
             <key code="76" output="&#x0003;"/>
             <key code="77" output="&#x001E;"/>
             <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -753,6 +778,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
             <key code="67" output="*"/>
@@ -764,6 +790,8 @@
             <key code="76" output="&#x0003;"/>
             <key code="77" output="&#x001E;"/>
             <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -862,6 +890,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
             <key code="67" output="*"/>
@@ -873,6 +902,8 @@
             <key code="76" output="&#x0003;"/>
             <key code="77" output="&#x001E;"/>
             <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -999,12 +1030,6 @@
         </keyMap>
     </keyMapSet>
     <actions>
-        <action id="&#x0022;">
-            <when state="none" next="LETTERS BY QUOTATION MARK"/>
-        </action>
-        <action id="&#x0027;">
-            <when state="none" next="LETTERS BY APOSTROPHE"/>
-        </action>
         <action id="*">
             <when state="none" output="*"/>
             <when state="SYMBOLS BY BACKSLASH" output="∗"/>
@@ -1016,11 +1041,12 @@
         </action>
         <action id=",">
             <when state="none" output=","/>
-            <when state="LETTERS BY APOSTROPHE" output="’"/>
         </action>
         <action id=", 1">
             <when state="none" output=","/>
-            <when state="LETTERS BY APOSTROPHE" output="’"/>
+        </action>
+        <action id=", 2">
+            <when state="none" output=","/>
         </action>
         <action id="-">
             <when state="none" output="-"/>
@@ -1030,26 +1056,30 @@
             <when state="none" output="-"/>
             <when state="SYMBOLS BY BACKSLASH" output="−"/>
         </action>
+        <action id="- 2">
+            <when state="none" output="-"/>
+            <when state="SYMBOLS BY BACKSLASH" output="−"/>
+        </action>
         <action id=".">
             <when state="none" output="."/>
-            <when state="LETTERS BY APOSTROPHE" output="·"/>
         </action>
         <action id=". 1">
             <when state="none" output="."/>
-            <when state="LETTERS BY APOSTROPHE" output="·"/>
+        </action>
+        <action id=". 2">
+            <when state="none" output="."/>
         </action>
         <action id="/">
             <when state="none" next="SYMBOLS BY SLASH"/>
-            <when state="LETTERS BY APOSTROPHE" output="´"/>
             <when state="SYMBOLS BY BACKSLASH" output="÷"/>
         </action>
         <action id="/ 1">
             <when state="none" next="SYMBOLS BY SLASH"/>
-            <when state="LETTERS BY APOSTROPHE" output="´"/>
             <when state="SYMBOLS BY BACKSLASH" output="÷"/>
         </action>
-        <action id="0">
-            <when state="none" next="1"/>
+        <action id="/ 2">
+            <when state="none" next="SYMBOLS BY SLASH"/>
+            <when state="SYMBOLS BY BACKSLASH" output="÷"/>
         </action>
         <action id="0 1">
             <when state="none" output="0"/>
@@ -1059,206 +1089,170 @@
             <when state="none" output="0"/>
             <when state="SYMBOLS BY SLASH" output="∅"/>
         </action>
+        <action id="0 3">
+            <when state="none" output="0"/>
+            <when state="SYMBOLS BY SLASH" output="∅"/>
+        </action>
         <action id="1">
             <when state="none" next="2"/>
         </action>
         <action id="10">
             <when state="none" output="О"/>
-            <when state="1" output="Ó"/>
             <when state="2" output="Ò"/>
-            <when state="3" output="Ô"/>
-            <when state="4" output="Ö"/>
-            <when state="5" output="Õ"/>
             <when state="LETTERS BY CAPITAL SHORT I" output="Ё"/>
-            <when state="LETTERS BY CAPITAL YERU" output="Ё"/>
-            <when state="LETTERS BY DIAERESIS" output="Ё"/>
-            <when state="LETTERS BY QUOTATION MARK" output="Ё"/>
             <when state="LETTERS BY SHORT I" output="ё"/>
-            <when state="LETTERS BY YERU" output="ё"/>
             <when state="SYMBOLS BY BACKSLASH" output="∘"/>
         </action>
         <action id="11">
             <when state="none" output="У"/>
-            <when state="1" output="Ú"/>
             <when state="2" output="Ù"/>
-            <when state="3" output="Û"/>
-            <when state="4" output="Ü"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ю"/>
             <when state="LETTERS BY CAPITAL SHORT I" output="Ю"/>
-            <when state="LETTERS BY CAPITAL YERU" output="Ю"/>
-            <when state="LETTERS BY DIAERESIS" output="Ю"/>
-            <when state="LETTERS BY QUOTATION MARK" output="Ў"/>
             <when state="LETTERS BY SHORT I" output="ю"/>
-            <when state="LETTERS BY YERU" output="ю"/>
             <when state="SYMBOLS BY BACKSLASH" output="∪"/>
             <when state="SYMBOLS BY SLASH" output="∩"/>
         </action>
         <action id="12">
-            <when state="none" next="LETTERS BY CAPITAL YERU"/>
-            <when state="4" output="Ÿ"/>
-            <when state="LETTERS BY DIAERESIS" output="Ў"/>
-            <when state="LETTERS BY QUOTATION MARK" output="Ў"/>
+            <when state="none" output="Ы"/>
         </action>
         <action id="13">
             <when state="none" output="а"/>
-            <when state="1" output="á"/>
             <when state="2" output="à"/>
-            <when state="3" output="â"/>
-            <when state="4" output="ä"/>
-            <when state="5" output="ã"/>
-            <when state="LETTERS BY APOSTROPHE" output="э"/>
             <when state="LETTERS BY CAPITAL SHORT I" output="Я"/>
-            <when state="LETTERS BY CAPITAL YERU" output="Я"/>
-            <when state="LETTERS BY DIAERESIS" output="э"/>
             <when state="LETTERS BY SHORT I" output="я"/>
-            <when state="LETTERS BY YERU" output="я"/>
             <when state="SYMBOLS BY BACKSLASH" output="∀"/>
         </action>
         <action id="14">
             <when state="none" output="е"/>
-            <when state="1" output="é"/>
             <when state="2" output="è"/>
-            <when state="3" output="ê"/>
-            <when state="4" output="ë"/>
-            <when state="LETTERS BY APOSTROPHE" output="э"/>
             <when state="LETTERS BY CAPITAL SHORT I" output="Э"/>
-            <when state="LETTERS BY CAPITAL YERU" output="Э"/>
-            <when state="LETTERS BY DIAERESIS" output="ё"/>
-            <when state="LETTERS BY QUOTATION MARK" output="ё"/>
             <when state="LETTERS BY SHORT I" output="э"/>
-            <when state="LETTERS BY YERU" output="э"/>
             <when state="SYMBOLS BY BACKSLASH" output="∃"/>
             <when state="SYMBOLS BY SLASH" output="∄"/>
         </action>
         <action id="15">
             <when state="none" output="и"/>
-            <when state="1" output="í"/>
             <when state="2" output="ì"/>
-            <when state="3" output="î"/>
-            <when state="4" output="ï"/>
-            <when state="LETTERS BY APOSTROPHE" output="і"/>
-            <when state="LETTERS BY DIAERESIS" output="ї"/>
-            <when state="LETTERS BY QUOTATION MARK" output="ї"/>
         </action>
         <action id="16">
             <when state="none" output="н"/>
-            <when state="5" output="ñ"/>
             <when state="SYMBOLS BY SLASH" output="¬"/>
         </action>
         <action id="17">
             <when state="none" output="о"/>
-            <when state="1" output="ó"/>
             <when state="2" output="ò"/>
-            <when state="3" output="ô"/>
-            <when state="4" output="ö"/>
-            <when state="5" output="õ"/>
             <when state="LETTERS BY CAPITAL SHORT I" output="Ё"/>
-            <when state="LETTERS BY CAPITAL YERU" output="Ё"/>
-            <when state="LETTERS BY DIAERESIS" output="ё"/>
-            <when state="LETTERS BY QUOTATION MARK" output="ё"/>
             <when state="LETTERS BY SHORT I" output="ё"/>
-            <when state="LETTERS BY YERU" output="ё"/>
             <when state="SYMBOLS BY BACKSLASH" output="∘"/>
         </action>
         <action id="18">
             <when state="none" output="у"/>
-            <when state="1" output="ú"/>
             <when state="2" output="ù"/>
-            <when state="3" output="û"/>
-            <when state="4" output="ü"/>
-            <when state="LETTERS BY APOSTROPHE" output="ю"/>
             <when state="LETTERS BY CAPITAL SHORT I" output="Ю"/>
-            <when state="LETTERS BY CAPITAL YERU" output="Ю"/>
-            <when state="LETTERS BY DIAERESIS" output="ю"/>
-            <when state="LETTERS BY QUOTATION MARK" output="ў"/>
             <when state="LETTERS BY SHORT I" output="ю"/>
-            <when state="LETTERS BY YERU" output="ю"/>
             <when state="SYMBOLS BY BACKSLASH" output="∪"/>
             <when state="SYMBOLS BY SLASH" output="∩"/>
         </action>
         <action id="19">
-            <when state="none" next="LETTERS BY YERU"/>
-            <when state="4" output="ÿ"/>
-            <when state="LETTERS BY DIAERESIS" output="ў"/>
-            <when state="LETTERS BY QUOTATION MARK" output="ў"/>
-        </action>
-        <action id="2">
-            <when state="none" next="3"/>
+            <when state="none" output=" "/>
+            <when state="2" output="`"/>
+            <when state="LETTERS BY CAPITAL ES" output="С"/>
+            <when state="LETTERS BY CAPITAL SHORT I" output="Й"/>
+            <when state="LETTERS BY CAPITAL TSE" output="Ц"/>
+            <when state="LETTERS BY ES" output="с"/>
+            <when state="LETTERS BY SHORT I" output="й"/>
+            <when state="LETTERS BY TSE" output="ц"/>
+            <when state="SYMBOLS BY BACKSLASH" output="\"/>
+            <when state="SYMBOLS BY SLASH" output="/"/>
         </action>
         <action id="20">
-            <when state="none" next="2"/>
+            <when state="none" output="а"/>
+            <when state="2" output="à"/>
+            <when state="LETTERS BY CAPITAL SHORT I" output="Я"/>
+            <when state="LETTERS BY SHORT I" output="я"/>
+            <when state="SYMBOLS BY BACKSLASH" output="∀"/>
         </action>
-        <action id="3">
-            <when state="none" next="4"/>
+        <action id="21">
+            <when state="none" output="е"/>
+            <when state="2" output="è"/>
+            <when state="LETTERS BY CAPITAL SHORT I" output="Э"/>
+            <when state="LETTERS BY SHORT I" output="э"/>
+            <when state="SYMBOLS BY BACKSLASH" output="∃"/>
+            <when state="SYMBOLS BY SLASH" output="∄"/>
         </action>
-        <action id="4">
-            <when state="none" next="5"/>
+        <action id="22">
+            <when state="none" output="о"/>
+            <when state="2" output="ò"/>
+            <when state="LETTERS BY CAPITAL SHORT I" output="Ё"/>
+            <when state="LETTERS BY SHORT I" output="ё"/>
+            <when state="SYMBOLS BY BACKSLASH" output="∘"/>
+        </action>
+        <action id="23">
+            <when state="none" output="ы"/>
+        </action>
+        <action id="24">
+            <when state="none" output="Ы"/>
+        </action>
+        <action id="25">
+            <when state="none" output="ы"/>
+        </action>
+        <action id="26">
+            <when state="none" output="у"/>
+            <when state="2" output="ù"/>
+            <when state="LETTERS BY CAPITAL SHORT I" output="Ю"/>
+            <when state="LETTERS BY SHORT I" output="ю"/>
+            <when state="SYMBOLS BY BACKSLASH" output="∪"/>
+            <when state="SYMBOLS BY SLASH" output="∩"/>
+        </action>
+        <action id="27">
+            <when state="none" output="и"/>
+            <when state="2" output="ì"/>
+        </action>
+        <action id="28">
+            <when state="none" output="н"/>
+            <when state="SYMBOLS BY SLASH" output="¬"/>
+        </action>
+        <action id="29">
+            <when state="none" output=" "/>
+            <when state="2" output="`"/>
+            <when state="LETTERS BY CAPITAL ES" output="С"/>
+            <when state="LETTERS BY CAPITAL SHORT I" output="Й"/>
+            <when state="LETTERS BY CAPITAL TSE" output="Ц"/>
+            <when state="LETTERS BY ES" output="с"/>
+            <when state="LETTERS BY SHORT I" output="й"/>
+            <when state="LETTERS BY TSE" output="ц"/>
+            <when state="SYMBOLS BY BACKSLASH" output="\"/>
+            <when state="SYMBOLS BY SLASH" output="/"/>
         </action>
         <action id="5">
             <when state="none" output=" "/>
-            <when state="1" output="´"/>
             <when state="2" output="`"/>
-            <when state="3" output="ˆ"/>
-            <when state="4" output="¨"/>
-            <when state="5" output="˜"/>
-            <when state="LETTERS BY APOSTROPHE" output="&#x0027;"/>
             <when state="LETTERS BY CAPITAL ES" output="С"/>
-            <when state="LETTERS BY CAPITAL KA" output="К"/>
             <when state="LETTERS BY CAPITAL SHORT I" output="Й"/>
             <when state="LETTERS BY CAPITAL TSE" output="Ц"/>
-            <when state="LETTERS BY CAPITAL YERU" output="Ы"/>
-            <when state="LETTERS BY CAPITAL ZE" output="З"/>
-            <when state="LETTERS BY DIAERESIS" output="¨"/>
             <when state="LETTERS BY ES" output="с"/>
-            <when state="LETTERS BY KA" output="к"/>
-            <when state="LETTERS BY QUOTATION MARK" output="&#x0022;"/>
             <when state="LETTERS BY SHORT I" output="й"/>
             <when state="LETTERS BY TSE" output="ц"/>
-            <when state="LETTERS BY YERU" output="ы"/>
-            <when state="LETTERS BY ZE" output="з"/>
             <when state="SYMBOLS BY BACKSLASH" output="\"/>
             <when state="SYMBOLS BY SLASH" output="/"/>
         </action>
         <action id="6">
             <when state="none" output="А"/>
-            <when state="1" output="Á"/>
             <when state="2" output="À"/>
-            <when state="3" output="Â"/>
-            <when state="4" output="Ä"/>
-            <when state="5" output="Ã"/>
-            <when state="LETTERS BY APOSTROPHE" output="Э"/>
             <when state="LETTERS BY CAPITAL SHORT I" output="Я"/>
-            <when state="LETTERS BY CAPITAL YERU" output="Я"/>
-            <when state="LETTERS BY DIAERESIS" output="Э"/>
             <when state="LETTERS BY SHORT I" output="я"/>
-            <when state="LETTERS BY YERU" output="я"/>
             <when state="SYMBOLS BY BACKSLASH" output="∀"/>
         </action>
         <action id="7">
             <when state="none" output="Е"/>
-            <when state="1" output="É"/>
             <when state="2" output="È"/>
-            <when state="3" output="Ê"/>
-            <when state="4" output="Ë"/>
-            <when state="LETTERS BY APOSTROPHE" output="Э"/>
             <when state="LETTERS BY CAPITAL SHORT I" output="Э"/>
-            <when state="LETTERS BY CAPITAL YERU" output="Э"/>
-            <when state="LETTERS BY DIAERESIS" output="Ё"/>
-            <when state="LETTERS BY QUOTATION MARK" output="Ё"/>
             <when state="LETTERS BY SHORT I" output="э"/>
-            <when state="LETTERS BY YERU" output="э"/>
             <when state="SYMBOLS BY BACKSLASH" output="∃"/>
             <when state="SYMBOLS BY SLASH" output="∄"/>
         </action>
         <action id="8">
             <when state="none" output="И"/>
-            <when state="1" output="Í"/>
             <when state="2" output="Ì"/>
-            <when state="3" output="Î"/>
-            <when state="4" output="Ï"/>
-            <when state="LETTERS BY APOSTROPHE" output="І"/>
-            <when state="LETTERS BY DIAERESIS" output="Ї"/>
-            <when state="LETTERS BY QUOTATION MARK" output="Ї"/>
         </action>
         <action id="8 1">
             <when state="none" output="8"/>
@@ -1268,19 +1262,24 @@
             <when state="none" output="8"/>
             <when state="SYMBOLS BY BACKSLASH" output="∞"/>
         </action>
+        <action id="8 3">
+            <when state="none" output="8"/>
+            <when state="SYMBOLS BY BACKSLASH" output="∞"/>
+        </action>
         <action id="9">
             <when state="none" output="Н"/>
-            <when state="5" output="Ñ"/>
             <when state="SYMBOLS BY SLASH" output="¬"/>
         </action>
         <action id=";">
             <when state="none" output=";"/>
             <when state="SYMBOLS BY SLASH" output="‴"/>
         </action>
+        <action id="; 1">
+            <when state="none" output=";"/>
+            <when state="SYMBOLS BY SLASH" output="‴"/>
+        </action>
         <action id="&#x003C;">
             <when state="none" output="&#x003C;"/>
-            <when state="LETTERS BY APOSTROPHE" output="‹"/>
-            <when state="LETTERS BY QUOTATION MARK" output="«"/>
             <when state="SYMBOLS BY BACKSLASH" output="≤"/>
             <when state="SYMBOLS BY SLASH" output="◁"/>
         </action>
@@ -1294,46 +1293,47 @@
             <when state="SYMBOLS BY BACKSLASH" output="≡"/>
             <when state="SYMBOLS BY SLASH" output="≠"/>
         </action>
+        <action id="= 2">
+            <when state="none" output="="/>
+            <when state="SYMBOLS BY BACKSLASH" output="≡"/>
+            <when state="SYMBOLS BY SLASH" output="≠"/>
+        </action>
         <action id="&#x003E;">
             <when state="none" output="&#x003E;"/>
-            <when state="LETTERS BY APOSTROPHE" output="›"/>
-            <when state="LETTERS BY QUOTATION MARK" output="»"/>
             <when state="SYMBOLS BY BACKSLASH" output="≥"/>
             <when state="SYMBOLS BY SLASH" output="▷"/>
         </action>
-        <action id="CAPS APOSTROPHE">
-            <when state="none" next="LETTERS BY APOSTROPHE"/>
-        </action>
         <action id="[">
             <when state="none" output="["/>
-            <when state="LETTERS BY APOSTROPHE" output="‚"/>
-            <when state="LETTERS BY QUOTATION MARK" output="„"/>
             <when state="SYMBOLS BY BACKSLASH" output="〈"/>
         </action>
         <action id="[ 1">
             <when state="none" output="["/>
-            <when state="LETTERS BY APOSTROPHE" output="‚"/>
-            <when state="LETTERS BY QUOTATION MARK" output="„"/>
+            <when state="SYMBOLS BY BACKSLASH" output="〈"/>
+        </action>
+        <action id="[ 2">
+            <when state="none" output="["/>
             <when state="SYMBOLS BY BACKSLASH" output="〈"/>
         </action>
         <action id="\">
             <when state="none" next="SYMBOLS BY BACKSLASH"/>
-            <when state="LETTERS BY APOSTROPHE" output="`"/>
         </action>
         <action id="\ 1">
             <when state="none" next="SYMBOLS BY BACKSLASH"/>
-            <when state="LETTERS BY APOSTROPHE" output="`"/>
+        </action>
+        <action id="\ 2">
+            <when state="none" next="SYMBOLS BY BACKSLASH"/>
         </action>
         <action id="]">
             <when state="none" output="]"/>
-            <when state="LETTERS BY APOSTROPHE" output="‘"/>
-            <when state="LETTERS BY QUOTATION MARK" output="“"/>
             <when state="SYMBOLS BY BACKSLASH" output="〉"/>
         </action>
         <action id="] 1">
             <when state="none" output="]"/>
-            <when state="LETTERS BY APOSTROPHE" output="‘"/>
-            <when state="LETTERS BY QUOTATION MARK" output="“"/>
+            <when state="SYMBOLS BY BACKSLASH" output="〉"/>
+        </action>
+        <action id="] 2">
+            <when state="none" output="]"/>
             <when state="SYMBOLS BY BACKSLASH" output="〉"/>
         </action>
         <action id="{">
@@ -1346,23 +1346,17 @@
         </action>
         <action id=" ">
             <when state="none" output=" "/>
-            <when state="LETTERS BY DIAERESIS" output="¨"/>
         </action>
         <action id="¨">
-            <when state="none" next="LETTERS BY DIAERESIS"/>
-            <when state="LETTERS BY DIAERESIS" output="`"/>
+            <when state="none" output="`"/>
         </action>
         <action id="Б">
             <when state="none" output="Б"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ъ"/>
-            <when state="LETTERS BY DIAERESIS" output="Ъ"/>
             <when state="SYMBOLS BY BACKSLASH" output="∈"/>
             <when state="SYMBOLS BY SLASH" output="∉"/>
         </action>
         <action id="Б 1">
             <when state="none" output="Б"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ъ"/>
-            <when state="LETTERS BY DIAERESIS" output="Ъ"/>
             <when state="SYMBOLS BY BACKSLASH" output="∈"/>
             <when state="SYMBOLS BY SLASH" output="∉"/>
         </action>
@@ -1378,37 +1372,21 @@
         </action>
         <action id="Г">
             <when state="none" output="Г"/>
-            <when state="LETTERS BY APOSTROPHE" output="Є"/>
-            <when state="LETTERS BY DIAERESIS" output="Ѓ"/>
         </action>
         <action id="Г 1">
             <when state="none" output="Г"/>
-            <when state="LETTERS BY APOSTROPHE" output="Є"/>
-            <when state="LETTERS BY DIAERESIS" output="Ѓ"/>
         </action>
         <action id="З">
             <when state="none" output="З"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ж"/>
-            <when state="LETTERS BY DIAERESIS" output="Ж"/>
         </action>
         <action id="З 1">
             <when state="none" output="З"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ж"/>
-            <when state="LETTERS BY DIAERESIS" output="Ж"/>
-        </action>
-        <action id="К">
-            <when state="none" next="LETTERS BY CAPITAL KA"/>
-        </action>
-        <action id="К 1">
-            <when state="none" next="LETTERS BY CAPITAL KA"/>
         </action>
         <action id="К 2">
             <when state="none" output="К"/>
-            <when state="LETTERS BY APOSTROPHE" output="Х"/>
         </action>
         <action id="К 3">
             <when state="none" output="К"/>
-            <when state="LETTERS BY APOSTROPHE" output="Х"/>
         </action>
         <action id="Л">
             <when state="none" output="Л"/>
@@ -1422,13 +1400,9 @@
         </action>
         <action id="С">
             <when state="none" next="LETTERS BY CAPITAL ES"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ш"/>
-            <when state="LETTERS BY DIAERESIS" output="Ш"/>
         </action>
         <action id="С 1">
             <when state="none" next="LETTERS BY CAPITAL ES"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ш"/>
-            <when state="LETTERS BY DIAERESIS" output="Ш"/>
         </action>
         <action id="Т">
             <when state="none" output="Т"/>
@@ -1440,81 +1414,57 @@
         </action>
         <action id="Х">
             <when state="none" output="Ж"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ж"/>
             <when state="SYMBOLS BY BACKSLASH" output="×"/>
         </action>
         <action id="Х 1">
             <when state="none" output="Ж"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ж"/>
             <when state="SYMBOLS BY BACKSLASH" output="×"/>
         </action>
         <action id="Ц">
             <when state="none" next="LETTERS BY CAPITAL TSE"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ч"/>
             <when state="LETTERS BY CAPITAL ES" output="Щ"/>
-            <when state="LETTERS BY DIAERESIS" output="Ч"/>
             <when state="LETTERS BY ES" output="щ"/>
             <when state="SYMBOLS BY BACKSLASH" output="⊂"/>
             <when state="SYMBOLS BY SLASH" output="⊄"/>
         </action>
         <action id="Ц 1">
             <when state="none" next="LETTERS BY CAPITAL TSE"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ч"/>
             <when state="LETTERS BY CAPITAL ES" output="Щ"/>
-            <when state="LETTERS BY DIAERESIS" output="Ч"/>
             <when state="LETTERS BY ES" output="щ"/>
             <when state="SYMBOLS BY BACKSLASH" output="⊂"/>
             <when state="SYMBOLS BY SLASH" output="⊄"/>
         </action>
         <action id="Ш">
             <when state="none" output="Ш"/>
-            <when state="LETTERS BY APOSTROPHE" output="Щ"/>
-            <when state="LETTERS BY DIAERESIS" output="Щ"/>
         </action>
         <action id="Ш 1">
             <when state="none" output="Ш"/>
-            <when state="LETTERS BY APOSTROPHE" output="Щ"/>
-            <when state="LETTERS BY DIAERESIS" output="Щ"/>
         </action>
         <action id="Ъ">
             <when state="none" output="Ъ"/>
-            <when state="LETTERS BY DIAERESIS" output="`"/>
         </action>
         <action id="Ъ 1">
             <when state="none" output="Ъ"/>
-            <when state="LETTERS BY DIAERESIS" output="`"/>
         </action>
         <action id="Ы">
             <when state="none" output="Х"/>
-            <when state="LETTERS BY APOSTROPHE" output="Х"/>
             <when state="LETTERS BY CAPITAL ES" output="Ш"/>
-            <when state="LETTERS BY CAPITAL KA" output="Х"/>
             <when state="LETTERS BY CAPITAL TSE" output="Ч"/>
-            <when state="LETTERS BY CAPITAL ZE" output="Ж"/>
             <when state="LETTERS BY ES" output="ш"/>
-            <when state="LETTERS BY KA" output="х"/>
             <when state="LETTERS BY TSE" output="ч"/>
-            <when state="LETTERS BY ZE" output="ж"/>
         </action>
         <action id="Ы 1">
             <when state="none" output="Х"/>
-            <when state="LETTERS BY APOSTROPHE" output="Х"/>
             <when state="LETTERS BY CAPITAL ES" output="Ш"/>
-            <when state="LETTERS BY CAPITAL KA" output="Х"/>
             <when state="LETTERS BY CAPITAL TSE" output="Ч"/>
-            <when state="LETTERS BY CAPITAL ZE" output="Ж"/>
             <when state="LETTERS BY ES" output="ш"/>
-            <when state="LETTERS BY KA" output="х"/>
             <when state="LETTERS BY TSE" output="ч"/>
-            <when state="LETTERS BY ZE" output="ж"/>
         </action>
         <action id="Ь">
             <when state="none" next="LETTERS BY CAPITAL SHORT I"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ъ"/>
         </action>
         <action id="Ь 1">
             <when state="none" next="LETTERS BY CAPITAL SHORT I"/>
-            <when state="LETTERS BY APOSTROPHE" output="Ъ"/>
         </action>
         <action id="Ь 2">
             <when state="none" output="Ь"/>
@@ -1526,8 +1476,11 @@
         </action>
         <action id="б">
             <when state="none" output="б"/>
-            <when state="LETTERS BY APOSTROPHE" output="ъ"/>
-            <when state="LETTERS BY DIAERESIS" output="ъ"/>
+            <when state="SYMBOLS BY BACKSLASH" output="∈"/>
+            <when state="SYMBOLS BY SLASH" output="∉"/>
+        </action>
+        <action id="б 1">
+            <when state="none" output="б"/>
             <when state="SYMBOLS BY BACKSLASH" output="∈"/>
             <when state="SYMBOLS BY SLASH" output="∉"/>
         </action>
@@ -1536,102 +1489,124 @@
             <when state="SYMBOLS BY BACKSLASH" output="∨"/>
             <when state="SYMBOLS BY SLASH" output="∧"/>
         </action>
+        <action id="в 1">
+            <when state="none" output="в"/>
+            <when state="SYMBOLS BY BACKSLASH" output="∨"/>
+            <when state="SYMBOLS BY SLASH" output="∧"/>
+        </action>
         <action id="г">
             <when state="none" output="г"/>
-            <when state="LETTERS BY APOSTROPHE" output="є"/>
-            <when state="LETTERS BY DIAERESIS" output="ѓ"/>
+        </action>
+        <action id="г 1">
+            <when state="none" output="г"/>
         </action>
         <action id="з">
             <when state="none" output="з"/>
-            <when state="LETTERS BY APOSTROPHE" output="ж"/>
-            <when state="LETTERS BY DIAERESIS" output="ж"/>
         </action>
-        <action id="к">
-            <when state="none" next="LETTERS BY KA"/>
+        <action id="з 1">
+            <when state="none" output="з"/>
         </action>
         <action id="к 1">
             <when state="none" output="к"/>
-            <when state="LETTERS BY APOSTROPHE" output="х"/>
+        </action>
+        <action id="к 2">
+            <when state="none" output="к"/>
         </action>
         <action id="л">
             <when state="none" output="л"/>
             <when state="SYMBOLS BY BACKSLASH" output="∟"/>
             <when state="SYMBOLS BY SLASH" output="∠"/>
         </action>
+        <action id="л 1">
+            <when state="none" output="л"/>
+            <when state="SYMBOLS BY BACKSLASH" output="∟"/>
+            <when state="SYMBOLS BY SLASH" output="∠"/>
+        </action>
         <action id="с">
             <when state="none" next="LETTERS BY ES"/>
-            <when state="LETTERS BY APOSTROPHE" output="ш"/>
-            <when state="LETTERS BY DIAERESIS" output="ш"/>
+        </action>
+        <action id="с 1">
+            <when state="none" next="LETTERS BY ES"/>
         </action>
         <action id="т">
             <when state="none" output="т"/>
             <when state="SYMBOLS BY BACKSLASH" output="⟂"/>
         </action>
+        <action id="т 1">
+            <when state="none" output="т"/>
+            <when state="SYMBOLS BY BACKSLASH" output="⟂"/>
+        </action>
         <action id="х">
             <when state="none" output="ж"/>
-            <when state="LETTERS BY APOSTROPHE" output="ж"/>
+            <when state="SYMBOLS BY BACKSLASH" output="×"/>
+        </action>
+        <action id="х 1">
+            <when state="none" output="ж"/>
             <when state="SYMBOLS BY BACKSLASH" output="×"/>
         </action>
         <action id="ц">
             <when state="none" next="LETTERS BY TSE"/>
-            <when state="LETTERS BY APOSTROPHE" output="ч"/>
             <when state="LETTERS BY CAPITAL ES" output="Щ"/>
-            <when state="LETTERS BY DIAERESIS" output="ч"/>
+            <when state="LETTERS BY ES" output="щ"/>
+            <when state="SYMBOLS BY BACKSLASH" output="⊂"/>
+            <when state="SYMBOLS BY SLASH" output="⊄"/>
+        </action>
+        <action id="ц 1">
+            <when state="none" next="LETTERS BY TSE"/>
+            <when state="LETTERS BY CAPITAL ES" output="Щ"/>
             <when state="LETTERS BY ES" output="щ"/>
             <when state="SYMBOLS BY BACKSLASH" output="⊂"/>
             <when state="SYMBOLS BY SLASH" output="⊄"/>
         </action>
         <action id="ш">
             <when state="none" output="ш"/>
-            <when state="LETTERS BY APOSTROPHE" output="щ"/>
-            <when state="LETTERS BY DIAERESIS" output="щ"/>
+        </action>
+        <action id="ш 1">
+            <when state="none" output="ш"/>
         </action>
         <action id="ъ">
             <when state="none" output="ъ"/>
-            <when state="LETTERS BY DIAERESIS" output="`"/>
+        </action>
+        <action id="ъ 1">
+            <when state="none" output="ъ"/>
         </action>
         <action id="ы">
             <when state="none" output="х"/>
-            <when state="LETTERS BY APOSTROPHE" output="х"/>
             <when state="LETTERS BY CAPITAL ES" output="Ш"/>
-            <when state="LETTERS BY CAPITAL KA" output="Х"/>
             <when state="LETTERS BY CAPITAL TSE" output="Ч"/>
-            <when state="LETTERS BY CAPITAL ZE" output="Ж"/>
             <when state="LETTERS BY ES" output="ш"/>
-            <when state="LETTERS BY KA" output="х"/>
             <when state="LETTERS BY TSE" output="ч"/>
-            <when state="LETTERS BY ZE" output="ж"/>
+        </action>
+        <action id="ы 1">
+            <when state="none" output="х"/>
+            <when state="LETTERS BY CAPITAL ES" output="Ш"/>
+            <when state="LETTERS BY CAPITAL TSE" output="Ч"/>
+            <when state="LETTERS BY ES" output="ш"/>
+            <when state="LETTERS BY TSE" output="ч"/>
         </action>
         <action id="ь">
             <when state="none" next="LETTERS BY SHORT I"/>
-            <when state="LETTERS BY APOSTROPHE" output="ъ"/>
         </action>
         <action id="ь 1">
             <when state="none" output="ь"/>
             <when state="SYMBOLS BY SLASH" output="′"/>
         </action>
+        <action id="ь 2">
+            <when state="none" next="LETTERS BY SHORT I"/>
+        </action>
+        <action id="ь 3">
+            <when state="none" output="ь"/>
+            <when state="SYMBOLS BY SLASH" output="′"/>
+        </action>
     </actions>
     <terminators>
-        <when state="1" output="´"/>
-        <when state="2" output="`"/>
-        <when state="3" output="ˆ"/>
-        <when state="4" output="¨"/>
-        <when state="5" output="˜"/>
-        <when state="LETTERS BY APOSTROPHE" output="&#x0027;"/>
+        <when state="2" output=""/>
         <when state="LETTERS BY CAPITAL ES" output="С"/>
-        <when state="LETTERS BY CAPITAL KA" output="К"/>
         <when state="LETTERS BY CAPITAL SHORT I" output="Й"/>
         <when state="LETTERS BY CAPITAL TSE" output="Ц"/>
-        <when state="LETTERS BY CAPITAL YERU" output="Ы"/>
-        <when state="LETTERS BY CAPITAL ZE" output="З"/>
-        <when state="LETTERS BY DIAERESIS" output="¨"/>
         <when state="LETTERS BY ES" output="с"/>
-        <when state="LETTERS BY KA" output="к"/>
-        <when state="LETTERS BY QUOTATION MARK" output="&#x0022;"/>
         <when state="LETTERS BY SHORT I" output="й"/>
         <when state="LETTERS BY TSE" output="ц"/>
-        <when state="LETTERS BY YERU" output="ы"/>
-        <when state="LETTERS BY ZE" output="з"/>
         <when state="SYMBOLS BY BACKSLASH" output="\"/>
         <when state="SYMBOLS BY SLASH" output="/"/>
     </terminators>
