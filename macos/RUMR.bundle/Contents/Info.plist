@@ -5,9 +5,9 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.rum</string>
 	<key>CFBundleName</key>
-	<string>RUM</string>
+	<string>RUMR</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>KLInfo_Russian - Mnemonic R</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
