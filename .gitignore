@@ -1,3 +1,4 @@
 # Keyman Developer
-keyman/build/
-keyman/*.kpj.user
+**/build/
+**/*.kpj.user
+**/*.keyboard_info
