@@ -233,7 +233,7 @@
 
 #### Keyman
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Keyman](https://keyman.com/about/) — это бесплатная клавиатурная платформа с открытым исходным кодом и доступна для многих ОС, включая [Windows](https://keyman.com/windows/), [macOS](https://keyman.com/mac/), [Linux](https://keyman.com/linux/), [Android](https://keyman.com/android/), [iOS](https://keyman.com/iphone-and-ipad/), а также для [Веб](https://keymanweb.com/).
+&nbsp;&nbsp;&nbsp;&nbsp;[Keyman](https://keyman.com/about/) — это бесплатная клавиатурная платформа с открытым исходным кодом и доступна для многих ОС, включая [Windows](https://keyman.com/windows/), [macOS](https://keyman.com/mac/), [Linux](https://keyman.com/linux/), [Android](https://keyman.com/android/), [iOS](https://keyman.com/iphone-and-ipad/), а также для [Веб](https://keymanweb.com/#ru,Keyboard_russian_mnemonic_r).
 
 ##### Windows, macOS, Linux
 
