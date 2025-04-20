@@ -82,7 +82,6 @@
 | Сюжетная линия            | `S` `j` `u` `x` `e` `t` `n` `a` `q`&nbsp;` `&nbsp;`l` `i` `n` `i` `q` |
 | Сила настоящего           | `S` `i` `l` `a`&nbsp;` `&nbsp;`n` `a` `s` `t` `o` `j` `a` `s` `c` `e` `g` `o` |
 | Счастливого пути          | `S`&nbsp;` `&nbsp;`c` `h` `a` `s` `t` `l` `i` `v` `o` `g` `o`&nbsp;` `&nbsp;`p` `u` `t` `i` |
-| Дождь должен идти         | `D` `o` `x` `d` `'`&nbsp;` `&nbsp;`d` `o` `l` `x` `e` `n`&nbsp;` `&nbsp;`i` `d` `t` `i` |
 | Волшебство рассвета       | `V` `o` `l` `w` `e` `b` `s` `t` `v` `o`&nbsp;` `&nbsp;`r` `a` `s` `s` `v` `e` `t` `a` |
 | Живописный японский клён  | `X` `i` `v` `o` `p` `i` `s` `n` `y` `j`&nbsp;` `&nbsp;` `&nbsp;`q` `p` `o` `n` `s` `k` `i` `j`&nbsp;` `&nbsp;` `&nbsp;`k` `l` `j` `o` `n` |
 
